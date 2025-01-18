@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-int sm(){
+int sm(int a ,int b){
     int sum=a+b;
+    return sum;
 }
 
 int main() {
@@ -9,5 +10,5 @@ int main() {
    int b;
 
    scanf("%d %d ",&a,&b);
-    printf("%d",sm());
+    printf("Sum: %d",sm(a,b));
 }
