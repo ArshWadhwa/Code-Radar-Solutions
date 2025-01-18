@@ -5,6 +5,6 @@ int main() {
     int age;
     char p[1000];
     scanf("%s %d\n %s",&n,&age,&p);
-    printf("Name: %s \nAge: %d\n Hobby:%s");
-    
+    printf("Name: %s\n Age: %d\n Hobby: %s");
+
 }
