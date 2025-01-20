@@ -1,11 +1,8 @@
 #include <stdio.h>
-
-
-
 int main() {
     int a;
     int isSorted=1;
-  scanf("&d",&a);
+  scanf("%d",&a);
 
 
   int arr[a];
