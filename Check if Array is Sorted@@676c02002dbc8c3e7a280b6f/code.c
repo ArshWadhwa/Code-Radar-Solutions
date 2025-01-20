@@ -20,7 +20,7 @@ int main() {
 
 
   }
-      if(isSorted){
+      if(isSorted==1){
         printf("Sorted");
     }else{
         printf("Not Sorted");
