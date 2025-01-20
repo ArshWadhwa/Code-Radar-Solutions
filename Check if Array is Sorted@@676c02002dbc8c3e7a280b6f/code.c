@@ -15,8 +15,8 @@ int main() {
   for(int i=0;i<a-1;i++){
     if(arr[i]>arr[i+1]){
         isSorted=0;
+        break;
     }
-    break;
     if(isSorted){
         printf("Sorted");
     }else{
