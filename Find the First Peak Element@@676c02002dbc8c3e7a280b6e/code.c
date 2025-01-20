@@ -14,6 +14,7 @@ int main() {
     for(int i=1;i<a;i++){
         if(arr[i]>max){
         max=arr[i];
+        break;
     }
     }
   
