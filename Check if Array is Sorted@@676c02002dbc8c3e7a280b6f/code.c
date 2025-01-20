@@ -17,11 +17,13 @@ int main() {
         isSorted=0;
         break;
     }
-    if(isSorted){
+
+
+  }
+      if(isSorted){
         printf("Sorted");
     }else{
         printf("Not Sorted");
     }
-return 0;
-  }
+    return 0;
 }
