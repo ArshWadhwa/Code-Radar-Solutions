@@ -6,7 +6,7 @@ int main() {
     int a;
     int isSorted=1;
   scanf("&d",&a);
-  printf("%d",a);
+
 
   int arr[a];
   for( int i=0;i<a;i++){
