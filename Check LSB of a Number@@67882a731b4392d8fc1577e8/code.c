@@ -4,5 +4,6 @@ int main() {
     int a;
     scanf("%d",&a);
     int bt=a&1;
-    printf("%d",bt);
+    bt==1 ? printf("Set") : printf("Not Set");
+
 }
