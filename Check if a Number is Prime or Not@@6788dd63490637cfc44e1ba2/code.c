@@ -9,12 +9,11 @@ int main() {
 
     }
     
-    for( int i =0;i<=sqrt(a);i++){
+    for( int i =2;i<=sqrt(a);i++){
         if(a%i==0){
             isP=0;
             break;
         }
-     
     }
     if(isP==1){
         printf("Prime");
