@@ -7,6 +7,6 @@ int main() {
  int b;
  scanf("%d %d",&a,&b);
 
-    a%b==0 ? printf("Profit") : printf("Loss");
+    a%b==0 ? printf("Yes") : printf("No");
  
 }
