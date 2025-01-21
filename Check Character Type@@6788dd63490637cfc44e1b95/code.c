@@ -7,7 +7,10 @@ int main() {
   
     if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
         printf("Vowel");
-    }else{
+    }else if(ch>=0 && ch<=100000000);
+    printf("Digit");
+    
+    else{
         printf("Consonant");
     }
 }
