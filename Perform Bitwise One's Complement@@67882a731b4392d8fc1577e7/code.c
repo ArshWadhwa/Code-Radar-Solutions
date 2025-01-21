@@ -3,9 +3,9 @@
 
 int main() {
     int a;
-    int n;
-    scanf("%d %d",&a,&n);
 
-    int ls=a~n;
+    scanf("%d",&a);
+
+    int ls=~a;
     printf("%d",ls);
 }
