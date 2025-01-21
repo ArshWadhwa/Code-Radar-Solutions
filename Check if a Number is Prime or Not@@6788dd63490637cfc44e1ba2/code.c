@@ -9,7 +9,7 @@ int main() {
 
     }
     
-    for( int i =0;i<sqrt(a);i++){
+    for( int i =0;i<=sqrt(a);i++){
         if(a%i==0){
             isP=0;
             break;
