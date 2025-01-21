@@ -13,8 +13,6 @@ int main() {
         if(a%i==0){
             isP=0;
             break;
-        }else{
-            isP=1;
         }
      
     }
