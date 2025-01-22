@@ -19,7 +19,12 @@ int main() {
     break;
 
     case '/':
-    printf("%f",a/b);
+    if(b!=0){
+        printf("%f",a/b);
+    }else{
+        printf("error")
+    }
+   
     break;
 
     default:
