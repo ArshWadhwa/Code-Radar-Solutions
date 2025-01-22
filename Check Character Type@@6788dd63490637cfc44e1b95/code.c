@@ -12,7 +12,7 @@ int main() {
     }else{
         printf("Consonant");
     }
-
+  }
     else if(isdigit(ch)){
         printf("Digit");
     }
@@ -20,5 +20,5 @@ int main() {
         printf("Invalid");
     }
     return 0;
-  }
+  
 }
