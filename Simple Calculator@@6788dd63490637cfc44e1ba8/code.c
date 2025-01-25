@@ -20,7 +20,7 @@ int main() {
 
     case '/':
     if(b!=0){
-        printf("%f",a/b);
+        printf("%d",a/b);
     }else{
         printf("error");
     }
