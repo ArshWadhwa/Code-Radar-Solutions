@@ -12,7 +12,7 @@ int main() {
     printf("%d", a - b);
   } else if (o == '/') {
     if (b != 0) {
-      printf("%f", a / b);
+      printf("%d", a/b);
     } else {
       printf("Error");
     }
