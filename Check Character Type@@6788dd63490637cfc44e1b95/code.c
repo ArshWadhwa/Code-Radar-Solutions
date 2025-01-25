@@ -3,21 +3,20 @@
 int main() {
     char ch;
     scanf(" %c",&ch);
-    ch=tolower(ch);
-  if(isalpha(ch)){
+    ch = tolower(ch);
   
-    if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
-        printf("Vowel");
-    }else{
-        printf("Consonant");
+    if(isalpha(ch)){
+        if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+            printf("Vowel");
+        }else{
+            printf("Consonant");
+        }
     }
-  }
     else if(isdigit(ch)){
         printf("Digit");
     }
-   else{
+    else{
         printf("Invalid");
     }
     return 0;
-  
 }
