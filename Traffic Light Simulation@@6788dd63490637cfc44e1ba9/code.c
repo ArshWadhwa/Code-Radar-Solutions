@@ -11,7 +11,8 @@ int main() {
     printf("Go");
   }else if(c=='Y'){
     printf("Slow Down");
-  }else{
+  }
+  else{
     printf("Invalid input");
   }
 }
