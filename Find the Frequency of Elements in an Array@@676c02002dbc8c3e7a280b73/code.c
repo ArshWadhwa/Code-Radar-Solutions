@@ -15,8 +15,8 @@ int main() {
     for(int i=0;i<s;i++){
     scanf("%d",&arr[i]);
    }
-   for (int i=0;i<s-1;i++){
-    for(int j=0;j<s-i-1;j++){
+   for (int i=0;i<s;i++){
+    for(int j=i;j<s;j++){
         if(arr[i]==arr[j]){
             cnt++;
         }
