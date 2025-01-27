@@ -21,8 +21,9 @@ int main() {
             cnt++;
               printf("%d %d",arr[i],cnt);
         }
-        printf("\n")
+      
     }
+      printf("\n")
   
    }
    
