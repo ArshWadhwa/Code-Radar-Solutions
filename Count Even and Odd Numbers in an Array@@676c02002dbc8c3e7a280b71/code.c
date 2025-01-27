@@ -16,7 +16,7 @@ int eve_c=0;
    }
 
     for(int i=0;i<s;i++){
-        arr[i]%2==0 ? odd_c+=1 : eve_c+=1;
+        arr[i]%2==0 ? odd_c++ : eve_c++;
         
     }
     printf("%d %d",odd_c,eve_c);
