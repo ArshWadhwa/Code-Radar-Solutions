@@ -4,9 +4,12 @@ int main() {
     int n;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
-        for(int j=i;j<n;j++){
-            printf("*");
+        for(int j=i;j<n-i;j++){
+            printf(" ");
         }
-        printf("\n");
+       for(int k=0;k<=i;k++){
+        printf("*");
+       }
+       printf("\n");
     }
 }
