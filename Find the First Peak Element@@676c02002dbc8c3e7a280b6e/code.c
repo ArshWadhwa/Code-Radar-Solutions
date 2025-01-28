@@ -12,8 +12,8 @@ int main() {
     }
     int pk=0;
 
-    int max=INT_MIN;
-    
+    int max=arr[0];
+
     for(int i=1;i<a;i++){
         if(arr[i]>max){
         max=arr[i];
