@@ -26,20 +26,20 @@ int main() {
 // fer reverse till k
 int end=k-1;
 int start=0;
-   while(start<k){
-    int temp=arr[k];
-    arr[k]=arr[start];
+   while(start<end){
+    int temp=arr[end];
+    arr[end]=arr[start];
     arr[start]=temp;
     start++;
     end--;
    }
    int start=k;
    int end=s-1;
-   while(k<=end){
+   while(start<=end){
     int temp=arr[end];
-    arr[k]=arr[end];
+    arr[start]=arr[end];
     arr[end]=temp;
-
+    start++ 
     end++;
    }
 
