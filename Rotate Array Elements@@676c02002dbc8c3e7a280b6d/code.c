@@ -7,6 +7,8 @@ int main() {
 
     int k;
     scanf("%d",&k);
+
+    k=k%s;
    int arr[s];
 
    for( int i=0;i<s;i++){
@@ -45,22 +47,7 @@ int start=0;
 
 for(int i=0;i<s;i++){
     printf("%d\n",arr[i])
-}
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-  
+} 
 
 
 }
