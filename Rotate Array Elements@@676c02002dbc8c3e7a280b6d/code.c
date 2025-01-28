@@ -41,7 +41,7 @@ int start=0;
     int temp=arr[end];
     arr[start]=arr[end];
     arr[end]=temp;
-    start++ 
+    start++ ;
     end--;
    }
 
