@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <limits.h>
 
 int main() {
     int a;
@@ -11,7 +12,8 @@ int main() {
     }
     int pk=0;
 
-    int max=arr[0];
+    int max=INT_MIN;
+    
     for(int i=1;i<a;i++){
         if(arr[i]>max){
         max=arr[i];
