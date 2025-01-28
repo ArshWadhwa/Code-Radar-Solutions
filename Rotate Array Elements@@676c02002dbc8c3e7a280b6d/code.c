@@ -12,28 +12,34 @@ int main() {
    for( int i=0;i<s;i++){
     scanf("%d",&arr[i]);
    }
-   int i=0;
-   int j=s-1;
+   int start=0;
+   int end=s-1;
 
-   while(i<=k){
+   while(start<=k){
     int temp=arr[k];
-    arr[k]=arr[i];
-    arr[i]=temp;
-    i++;
+    arr[k]=arr[start];
+    arr[start]=temp;
+    start++;
    }
-   while(k<=j){
-    int temp=arr[j];
-    arr[k]=arr[j];
-    arr[j]=temp;
+   int start=k;
+   int end=s-1;
+   while(k<=end){
+    int temp=arr[end];
+    arr[k]=arr[end];
+    arr[end]=temp;
 
-    j++;
+    end++;
    }
-   while(i<=j){
-    int temp=arr[i];
-    arr[i]=arr[j];
-    arr[j]=temp;
+   while(start<=end){
+    int temp=arr[end];
+    arr[end]=arr[start];
+    arr[start]=temp;
+    start++;
+    end--;
+    
+
    }
-   
+
 
    
 
