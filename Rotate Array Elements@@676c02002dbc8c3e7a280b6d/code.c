@@ -36,10 +36,12 @@ int main() {
     arr[start]=temp;
     start++;
     end--;
-    
 
    }
 
+for(int i=0;i<s;i++){
+    printf("%d\n",arr[i]);
+}
 
    
 
