@@ -39,8 +39,8 @@ int start=0;
    int end=s-1;
    while(start<=end){
     int temp=arr[end];
-    arr[start]=arr[end];
-    arr[end]=temp;
+    arr[end]=arr[start];
+    arr[start]=temp;
     start++ ;
     end--;
    }
