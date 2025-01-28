@@ -14,12 +14,24 @@ int main() {
    }
    int start=0;
    int end=s-1;
+//reverse purra array
+   while(start<=end){
+    int temp=arr[end];
+    arr[end]=arr[start];
+    arr[start]=temp;
+    start++;
+    end--;
 
-   while(start<=k){
+   }
+// fer reverse till k
+int end=k-1;
+int start=0;
+   while(start<k){
     int temp=arr[k];
     arr[k]=arr[start];
     arr[start]=temp;
     start++;
+    end--;
    }
    int start=k;
    int end=s-1;
@@ -30,17 +42,9 @@ int main() {
 
     end++;
    }
-   while(start<=end){
-    int temp=arr[end];
-    arr[end]=arr[start];
-    arr[start]=temp;
-    start++;
-    end--;
-
-   }
 
 for(int i=0;i<s;i++){
-    printf("%d\n",arr[i]);
+    printf("%d\n",arr[i])
 }
 
    
