@@ -14,10 +14,11 @@ int main() {
     int mn=arr[0];
     for(int i=0;i<n;i++){
         if(arr[i]>mx){
-            printf("%d",mx);
+            mx=arr[i];
         }
         if(arr[i]<mn){
-            printf("%d",mn);
+            mn=arr[i];
         }
     }
+    printf("%d %d",mn,mx);
 }
