@@ -2,10 +2,16 @@
 
 
 int main() {
-    int a;
-    scanf("%d",&a);
-     while (a > 1) {
-        a >>= 1; 
+    int num_bits=sizeof(int)*8;
+     // Shift 1 to the left by (num_bits - 1) to get the MSB mask
+    int msb_mask = 1 << (num_bits - 1);
+
+    // Check if the MSB is set
+    if (a & msb_mask) {
+        printf("Set\n");
+    } else {
+        printf("Not Set\n");
     }
-    a==1 ? printf("Set") : printf("Not Set");
-}
+
+    return 0;
+    }
