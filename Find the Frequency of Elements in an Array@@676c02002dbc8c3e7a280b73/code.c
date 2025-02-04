@@ -19,10 +19,11 @@ int main() {
     for(int j=0;j<s-1;j++){
         if(arr[i]==arr[j]){
             cnt++;
-              printf("%d %d",arr[i],cnt);
+              
         }
       
     }
+    printf("%d %d",arr[i],cnt);
       printf("\n")
   
    }
