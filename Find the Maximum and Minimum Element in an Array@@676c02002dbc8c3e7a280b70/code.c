@@ -7,12 +7,12 @@ int main() {
 
     int arr[n];
 
-    for(int i=0;i<arr.length;i++){
+    for(int i=0;i<n;i++){
        scanf("%d ",&arr[i]);
     }
     int mx=arr[0];
     int mn=arr[0];
-    for(int i=0;i<arr.length-1;i++){
+    for(int i=0;i<n;i++){
         if(arr[i]>mx){
             printf("%d",mx);
         }
