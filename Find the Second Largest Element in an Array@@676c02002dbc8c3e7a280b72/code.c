@@ -24,7 +24,7 @@ int main() {
         }
     }
     if(sl==INT_MIN){
-        printf("no");
+        printf("-1");
     }else{
         printf("%d",sl);
     }
