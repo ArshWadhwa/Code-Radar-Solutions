@@ -21,9 +21,10 @@ int main() {
             break;
     }
 
+
+}
 if(!fnd){
     printf("-1");
-}
 }
 
 }
