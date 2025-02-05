@@ -19,7 +19,7 @@ int main() {
         if(arr[i]>l){
             sl=l;
             l=arr[i];
-        }else if(arr[i]>sl){
+        }else if(arr[i]>sl && arr[i]<l){
             arr[i]=sl;
         }
 
