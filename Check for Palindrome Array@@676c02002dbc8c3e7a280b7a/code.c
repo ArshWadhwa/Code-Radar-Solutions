@@ -15,17 +15,15 @@ int main() {
   
     int i=0;
     int j=n-1;
-    bool palin=false;
+    bool palin=true;
     
     while(i<j){
-        if(arr[i]==arr[j]){
-            i++;
-            j--;
-            palin=true;
-        }
-        else{
+        if(arr[i]!=arr[j]){
             palin=false;
+            break;
         }
+       i++;
+       j--;
     }
     if(palin==true){
         printf("YES");
