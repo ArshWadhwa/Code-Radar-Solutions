@@ -13,12 +13,13 @@ int main() {
     }
     int i=0;
     for(int j=0;j<n;j++){
-        if(arr[j]!=0){
-            arr[i]=arr[j];
-        
+        if(arr[j]==0){
+            continue;
+
         }
+        arr[j]=arr[i];
           i++;
-          continue;
+          
         
     }
 
