@@ -3,13 +3,13 @@
 
 
 int main() {
-    int a;
+    int n;
   
-    scanf("%d",&a);
+    scanf("%d",&n);
 
 
-    int arr[a];
-    for( int i=0;i<a;i++){
+    int arr[n];
+    for( int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
   
