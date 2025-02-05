@@ -11,7 +11,7 @@ int main() {
        scanf("%d ",&arr[i]);
     }
     int t;
-    int p=arr[0];
+ 
     scanf("%d",&t);
     for(int i=0;i<n;i++){
         if(arr[i]==t){
