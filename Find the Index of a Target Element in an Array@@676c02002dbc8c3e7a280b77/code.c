@@ -11,11 +11,13 @@ int main() {
        scanf("%d ",&arr[i]);
     }
     int t;
-    int fnd=0;
+   
     scanf("%d",&t);
+     int fnd=0;
     for(int i=0;i<n;i++){
         if(arr[i]==t){
-         fnd=1;
+            printf("%d",i);
+            fnd=1;
             break;
     }
 
