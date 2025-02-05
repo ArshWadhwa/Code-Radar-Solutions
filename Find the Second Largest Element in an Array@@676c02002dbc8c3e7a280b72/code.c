@@ -20,7 +20,7 @@ int main() {
             sl=l;
             l=arr[i];
         }else if(arr[i]>sl && arr[i]<l){
-            arr[i]=sl;
+            sl=arr[i];
         }
 
     }
