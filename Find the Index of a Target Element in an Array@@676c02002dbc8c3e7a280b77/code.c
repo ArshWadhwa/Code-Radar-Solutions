@@ -21,9 +21,7 @@ int main() {
             break;
     }
 
-if(fnd==1){
-    printf("%d",i);
-}else{
+if(!fnd){
     printf("-1");
 }
 }
