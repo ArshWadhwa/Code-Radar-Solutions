@@ -12,7 +12,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int i=0;
-    for(int j=1;j<n;j++){
+    for(int j=0;j<n;j++){
         if(arr[j]!=0){
             arr[j]=arr[i];
           
