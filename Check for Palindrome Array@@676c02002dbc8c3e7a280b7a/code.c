@@ -17,7 +17,7 @@ int main() {
     int j=n-1;
     bool palin=false;
     
-    while(i<=j){
+    while(i<j){
         if(arr[i]==arr[j]){
             i++;
             j--;
