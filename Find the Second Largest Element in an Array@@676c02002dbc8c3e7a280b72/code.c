@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <limits.h>
 
 int main() {
     int n;
@@ -22,11 +22,10 @@ int main() {
         }else if(arr[i]>sl && arr[i]<l){
             sl=arr[i];
         }
-            if(sl==INT_MIN){
+    }
+    if(sl==INT_MIN){
         printf("no");
     }else{
         printf("%d",sl);
     }
-    }
-
 }
