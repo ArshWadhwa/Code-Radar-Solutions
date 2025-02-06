@@ -14,11 +14,18 @@ int main() {
 
     int max=arr[0];
 
+
     for(int i=1;i<a;i++){
         if(arr[i]>max){
         max=arr[i];
-        pk=1;
-        break;
+        
+    }
+    for(int i=max;i<a;i++){
+        if(arr[i]>max){
+            max=arr[i];
+            pk=1;
+            break;
+        }
     }
 
     }
