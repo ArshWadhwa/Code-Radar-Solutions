@@ -18,6 +18,9 @@ int main() {
         num1=arr[i];
         num2=arr[i+1];
     }
+    i++;
+    j--;
+    
   }
     
 
