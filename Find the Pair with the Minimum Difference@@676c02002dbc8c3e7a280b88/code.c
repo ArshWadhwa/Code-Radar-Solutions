@@ -12,11 +12,11 @@ int main() {
    int j=1;
    int num1,num2;
   while(j<n){
-    int p=arr[i+1]-arr[i];
+    int p=arr[j]-arr[i];
     if(p<mn){
         mn=p;
         num1=arr[i];
-        num2=arr[i+1];
+        num2=arr[j];
        
     }
     i++;
