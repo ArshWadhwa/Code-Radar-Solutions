@@ -18,7 +18,7 @@ int main() {
         int p=arr[j]-arr[i];
         if(p<mn){
             printf("%d %d",i,j);
-            retu
+            return;
 
 
         }
