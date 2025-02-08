@@ -9,18 +9,19 @@ int main() {
     }
    int mn=INT_MAX;
    int i=0;
-   int j=n-1;
+   int j=1;
    int num1,num2;
-  while(i<=j){
+  while(j<n){
     int p=arr[i+1]-arr[i];
     if(p<mn){
         mn=p;
         num1=arr[i];
         num2=arr[i+1];
+       
     }
     i++;
-    j--;
-    
+    j++;
+
   }
     
 
