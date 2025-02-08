@@ -14,9 +14,9 @@ int main() {
         mn=p;
         num1=arr[i];
         num2=arr[i+1];
-
     }
 
    }
    printf("%d %d",num1,num2);
+   return 0;
 }
