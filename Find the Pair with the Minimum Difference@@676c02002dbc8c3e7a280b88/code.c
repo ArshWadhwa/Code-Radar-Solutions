@@ -8,7 +8,7 @@ int main() {
     }
    int mn=INT_MAX;
    int num1,num2;
-   for(int i=0;i<n;i++){
+   for(int i=0;i<n-1;i++){
     int p=arr[i+1]-arr[i];
     if(p<mn){
         mn=p;
