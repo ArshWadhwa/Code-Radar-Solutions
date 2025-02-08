@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-       scanf("%d ",&arr[i]);
+       scanf("%d",&arr[i]);
     }
    int mn=INT_MAX;
    int i=0;
@@ -17,7 +17,6 @@ int main() {
         mn=p;
         num1=arr[i];
         num2=arr[j];
-       
     }
     i++;
     j++;
