@@ -11,7 +11,7 @@ int main() {
     if(n%2==0){
     res+='1';
     }
-    res+='0'
+    res+='0';
     cnt+=1;
 
     n=n/2;
