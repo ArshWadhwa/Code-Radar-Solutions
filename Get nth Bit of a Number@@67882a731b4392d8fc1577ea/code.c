@@ -7,12 +7,11 @@ void printBit(int n){
         printf("%d",n%2)
     }
 }
-
-
 int main() {
     int n,a;
     scanf("%d %d",&n,&a);
-    printBit(n);
+
 
     int athBit=(n>>a)&1;
+    printf("%d",athBit);
 }
