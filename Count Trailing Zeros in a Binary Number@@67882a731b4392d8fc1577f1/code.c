@@ -11,5 +11,6 @@ int main() {
         cnt++;
         n=n/2;
     }
+     printf("%d",cnt);
    }
-   printf("%d",cnt);
+  
