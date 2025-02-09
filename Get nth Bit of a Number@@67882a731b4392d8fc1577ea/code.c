@@ -4,7 +4,7 @@
 void printBit(int n){
     if(n>1){
         printBit(n/2);
-        printf("%d",n%2)
+       
     }
 }
 int main() {
