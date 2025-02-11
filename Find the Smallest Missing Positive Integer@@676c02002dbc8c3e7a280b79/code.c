@@ -22,7 +22,7 @@ int main() {
 
     }
     int sm=0;
-    for(int i=mn;i<=mx;i++){
+    for(int i=mn;i<mx;i++){
             sm+=i;
     }
     int sm2=0
