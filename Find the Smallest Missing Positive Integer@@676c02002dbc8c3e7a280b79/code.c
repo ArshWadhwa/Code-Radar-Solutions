@@ -31,5 +31,5 @@ int main() {
             sm+=i;
     }
    
-    printf("%d",sm2-sm);
+    printf("%d",sm-sm2);
 }
