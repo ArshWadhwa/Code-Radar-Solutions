@@ -14,6 +14,6 @@ int main() {
     int sm=0;
     for(int i=0;i<n;i++){
         sm+=arr[i];
-        printf("%d",sm);
+        printf("%d ",sm);
     }
 }
