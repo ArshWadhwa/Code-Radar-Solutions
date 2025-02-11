@@ -10,7 +10,7 @@ int main() {
     for(int i=0;i<n;i++){
        scanf("%d ",&arr[i]);
     }
-    int sm2=0
+    int sm2=0;
     for(int i=0;i<n;i++){
         sm2+=arr[i];
     }
