@@ -5,5 +5,5 @@ int main() {
     scanf("%d",&a);
     int bt=a&1;
     bt==1 ? printf("Set") : printf("Not Set");
-
+    
 }
