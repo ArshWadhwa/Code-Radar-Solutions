@@ -14,12 +14,11 @@ int main(){
         arr[i] = sm;
     }
 
-    // Printing the transformed array
-    printf("Transformed array: ");
+
     for (int i = 0; i < size; i++) {
         printf("%d ", arr[i]);
     }
-    printf("\n");
+
 
     return 0;
 
