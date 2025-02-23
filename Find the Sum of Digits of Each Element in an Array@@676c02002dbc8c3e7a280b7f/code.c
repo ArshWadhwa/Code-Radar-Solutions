@@ -21,6 +21,9 @@ int main(){
             int num = arr[i];
             while (num != 0) {
                 sm += num % 10;
+                if(sm<0){
+                    sm=-sm;
+                }
                 num /= 10;
             }
         }
