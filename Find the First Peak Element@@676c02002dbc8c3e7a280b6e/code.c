@@ -24,6 +24,7 @@ int main() {
         if(arr[i]>max){
             max=arr[i];
             pk=1;
+            break;
         
         }
     }
