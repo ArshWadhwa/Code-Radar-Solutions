@@ -10,34 +10,22 @@ int main() {
     for(int i =0;i<a;i++){
         scanf("%d\n",&arr[i]);
     }
-    int pk=0;
+   for(int i=0;i<a;i++){
+    if(i==0){
+        if(arr[i]>arr[i+1]){
+            printf("%d",arr[i]);
 
-    int max=arr[0];
-
-
-    for(int i=1;i<a;i++){
-        if(arr[i]>max){
-        max=arr[i];
-        
-    }
-    for(int i=max;i<a;i++){
-        if(arr[i]>max){
-            max=arr[i];
-            pk=1;
-            break;
-        
         }
     }
-
-    }
-    if(pk==1){
-         printf("%d",max);
+    else if(i==a-1){
+       if(arr[i]>arr[i-1]){
+        printf("%d",arr[i]);
+       } 
     }else{
-        printf("-1");
+        if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
+            printf("%d",arr[i]);
+        }
     }
-    
-  
-   
-    return 0;
+   }
 
 }
