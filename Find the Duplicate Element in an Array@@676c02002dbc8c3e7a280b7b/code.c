@@ -21,9 +21,9 @@ int main() {
         }else{
             continue;
         }
-
-        
-    }
     j++;
     i++;
+        
+    }
+    
 }
