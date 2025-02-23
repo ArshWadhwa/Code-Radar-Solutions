@@ -2,7 +2,7 @@
 
 int main(){
     char c[1000];
-    scanf("%s",&c);
+    scanf("%s", c);
 
     int n = strlen(c);
 
