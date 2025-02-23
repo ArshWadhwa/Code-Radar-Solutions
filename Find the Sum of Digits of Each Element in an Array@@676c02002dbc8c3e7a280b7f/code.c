@@ -20,7 +20,8 @@ int main(){
         } else  {
             int num = arr[i];
             while (num != 0) {
-                sm += num % 10;
+                int rem=num%10;
+                sm+=rem;
                 if(sm<0){
                     sm=-sm;
                 }
