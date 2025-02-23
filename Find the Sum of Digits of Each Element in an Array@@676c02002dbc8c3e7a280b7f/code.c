@@ -21,10 +21,11 @@ int main(){
             int num = arr[i];
             while (num != 0) {
                 int rem=num%10;
-                sm+=rem;
+               
                 if(rem<0){
-                    sm=-sm;
+                    rem=-rem;
                 }
+                 sm+=rem;
                 num /= 10;
             }
         }
