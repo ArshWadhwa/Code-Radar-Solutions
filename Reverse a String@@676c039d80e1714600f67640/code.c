@@ -10,4 +10,5 @@ int main(){
         printf("%s",c[i]);
 
     }
+    return 0;
 }
