@@ -18,8 +18,8 @@ int main(){
         if (arr[i] <= 9 && arr[i] >= 0) {
             sm = arr[i];
         } else  {
-            int num = abs(arr[i]);
-            while (num > 0) {
+            int num = arr[i];
+            while (num != 0) {
                 sm += num % 10;
                 num /= 10;
             }
