@@ -2,7 +2,7 @@
 
 int main(){
     char c[1000];
-    scanf("%c",c);
+    scanf("%c",&c);
 
     int n= sizeof(c);
 
