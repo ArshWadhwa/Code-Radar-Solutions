@@ -22,7 +22,7 @@ int main(){
             while (num != 0) {
                 int rem=num%10;
                 sm+=rem;
-                if(sm<0){
+                if(rem<0){
                     sm=-sm;
                 }
                 num /= 10;
