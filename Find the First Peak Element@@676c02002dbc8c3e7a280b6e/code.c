@@ -10,7 +10,7 @@ int main() {
     for(int i =0;i<a;i++){
         scanf("%d\n",&arr[i]);
     }
-   for(int i=0;i<a;i++){
+
     if(i==0){
         if(arr[i]>arr[i+1]){
             printf("%d",arr[i]);
@@ -21,11 +21,12 @@ int main() {
        if(arr[i]>arr[i-1]){
         printf("%d",arr[i]);
        } 
-    }else{
+    }
+    else{
         if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
             printf("%d",arr[i]);
         }
     }
-   }
+   
 
 }
