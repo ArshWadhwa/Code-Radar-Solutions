@@ -20,12 +20,9 @@ int main() {
             dec=0;
 
         }else if(arr[i]<arr[i-1]){
-            dec =0
-        }else if(arr[i]==arr[i-1]){
-           inc =0;
-        }else{
-            y=0;
+            inc =0
         }
+    
     }
 
    if (inc || dec) {
