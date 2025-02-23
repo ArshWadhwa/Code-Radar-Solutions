@@ -12,12 +12,21 @@ int main() {
         scanf("%d",&arr[i]);
     }
 
+    int y=1;
     for(int i=1;i<n;i++){
         if(arr[i]>arr[i-1] || arr[i]<arr[i-1]){
-        printf("YES");
+        
+            y=1;
 
         }else {
-            printf("NO");
+            y=0;
         }
     }
+
+    if(y==1){
+        printf("YES");
+    }else{
+    printf("NO");
+    }
+
 }
