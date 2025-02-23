@@ -12,17 +12,14 @@ int main() {
         scanf("%d",&arr[i]);
     }
 
-    int i=0;
-    int j=1;
-    while(i<j){
-        if(arr[i]==arr[j]){
-            printf("%d",arr[i]);
-            return 0;
-        }else{
-            continue;
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (arr[i] == arr[j]) {
+                printf("%d", arr[i]);
+                return 0;
+            }
         }
-    j++;
-    i++;
+    
         
     }
     
