@@ -13,7 +13,7 @@ int main(){
  for (int i = 0; i < n; i++) {
         int sm = 0;
        
-        if (arr[i] <= 9 && arr[i] > 0) {
+        if (arr[i] <= 9 && arr[i] >= 0) {
             sm = arr[i];
         } else if(arr[i]<0 || arr[i]>9) {
             int num = arr[i];
