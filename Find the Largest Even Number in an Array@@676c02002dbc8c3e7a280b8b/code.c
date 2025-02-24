@@ -18,6 +18,6 @@ int main() {
             m=-1;
         }
     }
-    printf("%d",arr[i]);
+    printf("%d",m);
 
 }
