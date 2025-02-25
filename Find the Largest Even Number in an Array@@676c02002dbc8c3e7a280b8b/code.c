@@ -17,7 +17,7 @@ int main() {
             mx=arr[i];
         }
         if(arr[i]<mx && arr[i]%2==0){
-            mx=arr[i]
+            mx=arr[i];
         }
     }
     
