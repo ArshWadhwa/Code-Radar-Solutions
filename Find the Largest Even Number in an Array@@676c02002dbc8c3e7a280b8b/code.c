@@ -19,8 +19,6 @@ int main() {
     for(int i=0;i<a;i++){
         if(arr[i]>mx && arr[i]%2==0){
             mx=arr[i];
-        }else{
-            mx=-1;
         }
     }
     printf("%d",mx);
