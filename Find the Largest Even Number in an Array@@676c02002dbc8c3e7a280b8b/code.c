@@ -21,7 +21,7 @@ int main() {
             mx=arr[i];
         }
     }
-    if(arr[i]%2!=0){
+    if(mx%2!=0){
         printf("-1");
     }
     printf("%d",mx);
