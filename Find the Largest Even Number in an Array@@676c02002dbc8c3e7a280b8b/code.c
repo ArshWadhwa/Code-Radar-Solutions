@@ -10,14 +10,19 @@ int main() {
     for(int i =0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    int m= arr[0];
+    int mx;
     for(int i=0;i<a;i++){
-        if(arr[i]>m && arr[i]%2==0){
-            m=arr[i];
-        }else{
-            m=-1;
+        if(arr[i]%2==0){
+            mx=arr[i];
         }
     }
-    printf("%d",m);
+    for(int i=0;i<a;i++){
+        if(arr[i]>mx && arr[i]%2==0){
+            mx=arr[i];
+        }else{
+            mx=-1;
+        }
+    }
+    printf("%d",mx);
 
-}
+} 
