@@ -14,6 +14,8 @@ int main() {
     for(int i=0;i<a;i++){
         if(arr[i]%2==0){
             mx=arr[i];
+        }else if(arr[i]%2!=0){
+            mx=-1;
         }
     }
     for(int i=0;i<a;i++){
@@ -21,9 +23,7 @@ int main() {
             mx=arr[i];
         }
     }
-    if(mx%2!=0){
-        printf("-1");
-    }
+    
     printf("%d",mx);
 
 } 
