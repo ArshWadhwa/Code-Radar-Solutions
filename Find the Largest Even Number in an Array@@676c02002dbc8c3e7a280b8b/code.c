@@ -10,12 +10,10 @@ int main() {
     for(int i =0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    int mx;
+    int mx=-1;
     for(int i=0;i<a;i++){
         if(arr[i]%2==0){
             mx=arr[i];
-        }else if(arr[i]%2!=0){
-            mx=-1;
         }
     }
     for(int i=0;i<a;i++){
