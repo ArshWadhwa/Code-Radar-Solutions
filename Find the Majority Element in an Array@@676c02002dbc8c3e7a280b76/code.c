@@ -1,4 +1,5 @@
 #include<stdio.h>
+  bubbSort(arr,n);
 int main(){
 
     int n;
