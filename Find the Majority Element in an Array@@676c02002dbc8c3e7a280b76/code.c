@@ -43,11 +43,9 @@ int main(){
         mxCnt = cnt;
         majElement = arr[n - 1];
     }
-        if(n==1){
+        if(mxCnt==1){
             majElement=arr[n-1];
             printf("%d",majElement);
-            break;
-
         }
      if (mxCnt > n / 2) {
         printf("%d", majElement);
