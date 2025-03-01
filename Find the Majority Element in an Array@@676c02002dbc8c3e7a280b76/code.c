@@ -23,12 +23,10 @@ int main(){
     bubbSort(arr,n);
     int mxCnt=1;
     int cnt=1;
-    int majElement=-1;
+    int majElement=arr[0];
 
     for(int i=0;i<n-1;i++){
-       if(n==1){
-        printf("%d",arr[i]);
-    }
+   
 
         if(arr[i]==arr[i+1]){
             cnt+=1;
