@@ -19,7 +19,9 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-      
+    if(n==1){
+        printf("%d",arr[0]);
+    }
     bubbSort(arr,n);
     int mxCnt=1;
     int cnt=1;
