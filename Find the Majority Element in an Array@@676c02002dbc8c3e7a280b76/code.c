@@ -26,10 +26,7 @@ int main(){
     int majElement=-1;
 
     for(int i=0;i<n-1;i++){
-        if(n==1){
-            printf("%d",arr[i]);
-
-        }
+       
 
         if(arr[i]==arr[i+1]){
             cnt+=1;
@@ -46,7 +43,10 @@ int main(){
         mxCnt = cnt;
         majElement = arr[n - 1];
     }
+        if(n==1){
+            printf("%d",arr[i]);
 
+        }
      if (mxCnt > n / 2) {
         printf("%d", majElement);
     } else {
