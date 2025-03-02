@@ -17,13 +17,14 @@ int main(){
             rev+=rem+arr[i]/10;
        }
         arr[i]=org;
-       if(rev==arr[i]){
+  
+    }
+         if(rev==arr[i]){
         cnt+=1;
 
        }else{
         cnt=0;
        }
         printf("%d",cnt);
-    }
    
 }
