@@ -20,7 +20,7 @@ int main(){
        }
 
          if(rev==org){
-        cnt+=1;
+        cnt++;
   
     }
     }
