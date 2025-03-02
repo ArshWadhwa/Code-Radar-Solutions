@@ -12,7 +12,9 @@ int main(){
         int org=arr[i];
 
         int rev=0;
-        while(arr[i]!=0){
+        
+        while(arr[i]>0){
+            
             int rem =arr[i]%10;
             rev =rev*10+rem;
             arr[i]/=10;
