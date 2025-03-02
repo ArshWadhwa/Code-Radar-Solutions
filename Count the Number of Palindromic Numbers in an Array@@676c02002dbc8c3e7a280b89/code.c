@@ -21,7 +21,7 @@ int main(){
 
         arr[i]=org;
 
-         if(rev==arr[i]){
+         if(rev==org){
         cnt+=1;
   
     }
