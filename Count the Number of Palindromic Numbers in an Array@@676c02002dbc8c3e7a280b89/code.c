@@ -19,8 +19,6 @@ int main(){
 
        }
 
-        arr[i]=org;
-
          if(rev==org){
         cnt+=1;
   
