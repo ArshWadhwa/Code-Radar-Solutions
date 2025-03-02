@@ -6,16 +6,19 @@ int main() {
 
   
 
-    k = k % s; // Normalize k
-    int arr[s];
+  
 
     // Input array elements
     for (int i = 0; i < s; i++) {
         scanf("%d\n", &arr[i]);
     }
+
     
       int k;
     scanf("%d", &k);
+
+      k = k % s; // Normalize k
+    int arr[s];
 
     // Reverse the whole array
     int start = 0, end = s - 1;
