@@ -23,7 +23,7 @@ int main(){
        }else{
         cnt=0;
        }
-       
+        printf("%d",cnt);
     }
-    printf("%d",cnt);
+   
 }
