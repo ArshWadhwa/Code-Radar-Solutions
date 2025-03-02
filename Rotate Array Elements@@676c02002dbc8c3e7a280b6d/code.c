@@ -4,7 +4,7 @@ int main() {
     int s;
     scanf("%d", &s);
 
-  
+     int arr[s];
 
   
 
@@ -18,7 +18,7 @@ int main() {
     scanf("%d", &k);
 
       k = k % s; // Normalize k
-    int arr[s];
+ 
 
     // Reverse the whole array
     int start = 0, end = s - 1;
