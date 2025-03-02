@@ -11,7 +11,7 @@ int main() {
 
     // Input array elements
     for (int i = 0; i < s; i++) {
-        scanf("%d", &arr[i]);
+        scanf("%d\n", &arr[i]);
     }
     
       int k;
