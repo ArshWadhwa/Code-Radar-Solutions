@@ -20,14 +20,12 @@ int main(){
        }
 
         arr[i]=org;
-  
-    }
+
          if(rev==arr[i]){
         cnt+=1;
-
-       }else{
-        cnt=0;
-       }
+  
+    }
+        
         printf("%d",cnt);
    
 }
