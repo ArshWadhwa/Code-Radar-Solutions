@@ -7,10 +7,10 @@ int main(){
         scanf("%d",&arr[i]);
 
     }
-    
+            int cnt=0;
     for(int i=0;i<n;i++){
         int org=arr[i];
-        int cnt=0;
+
         int rev=0;
         while(arr[i]!=0){
             int rem =arr[i]%10;
