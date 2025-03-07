@@ -8,23 +8,16 @@ int main() {
        scanf("%d",&arr[i]);
     }
    int mn=INT_MAX;
-   int i=0;
-   int j=1;
-   int num1,num2;
-  while(j<n){
-    int p=arr[j]-arr[i];
-    if(p<mn){
-        mn=p;
-        num1=arr[i];
-        num2=arr[j];
+   for(int i=0;i<n;i++){
+    for(int j=i+1;j<n;j++){
+        int diff = arr[j]-arr[i];
+        if(diff <mn){
+            mn=diff;
+            num1= arr[i];
+            num2=arr[j];
+        }
     }
-    i++;
-    j++;
-
-  }
-    
-
-   
+   }
    printf("%d %d",num1,num2);
    return 0;
 }
