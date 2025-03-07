@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 
-int checkPrime(int arr[],n)
+int checkPrime(int num);
 int main(){
 
     int n;
