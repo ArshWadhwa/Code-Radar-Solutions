@@ -17,14 +17,15 @@ int main() {
             if(arr[i]==arr[j]){
                 fnd=1;
                 printf("%d",arr[i]);
-                break;
+                return 0;
             }
             
         }
-        printf("%d",fnd);
+
 
      
     }
+            printf("%d",fnd);
 
    
     
