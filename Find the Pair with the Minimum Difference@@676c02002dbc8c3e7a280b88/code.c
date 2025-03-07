@@ -11,7 +11,7 @@ int main() {
    int mn=INT_MAX;
    for(int i=0;i<n;i++){
     for(int j=i+1;j<n;j++){
-        int diff = arr[j]-arr[i];
+        int diff = abs(arr[j]-arr[i]);
         if(diff <mn){
             mn=diff;
             num1=arr[i];
