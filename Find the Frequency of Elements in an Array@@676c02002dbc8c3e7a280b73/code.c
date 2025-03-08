@@ -28,9 +28,9 @@ if(arr[i]==arr[j]){
 
     }
     }
-    
+      printf("%d %d\n", arr[i], cnt);
    }
-   printf("%d %d\n", arr[i], cnt);
+ 
    
 
 }
