@@ -1,32 +1,29 @@
 #include <stdio.h>
 
 int main() {
-    int n, i, j, space, count;
+    int n;
 
 
     scanf("%d", &n);
 
-    for(i = 1; i <= n; i++) {
-        // Print leading spaces
-        for(space = 1; space <= n - i; space++) {
-            printf("  ");
+    for (int i = 1; i <= n; i++) {
+
+        for (int space = 1; space <= n - i; space++) {
+            printf(" ");
         }
 
-        count = 1; // Start from 1
-
-        // Print the increasing sequence
-        for(j = 1; j <= i; j++) {
-            printf("%2d",count++);
+      
+        for (int j = 1; j <= i; j++) {
+            printf("%d", j);
         }
 
-        // Print the decreasing sequence
-        count -= 2; // Adjust count to continue decreasing correctly
-        for(j = 1; j < i; j++) {
-            printf("%2d",count--);
+
+        for (int j = i - 1; j >= 1; j--) {
+            printf("%d", j);
         }
 
-        printf("\n");
+        printf("\n"); 
     }
-    
+
     return 0;
 }
