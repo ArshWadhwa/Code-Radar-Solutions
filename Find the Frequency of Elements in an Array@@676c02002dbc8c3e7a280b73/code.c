@@ -18,8 +18,8 @@ int main() {
     if(v[i]==1){
         continue;
     }
-   }
-   int cnt=1;
+
+     int cnt=1;
     for(int j=i+1;j<s;j++){
 if(arr[i]==arr[j]){
         v[j]=1;
@@ -30,6 +30,8 @@ if(arr[i]==arr[j]){
       printf("%d %d\n", arr[i], cnt);
    }
  
+   }
+  
    
 
 }
