@@ -1,9 +1,10 @@
-int fibonacciSeries(int n){
-    if(n==0 || n==1){
-        return 0;
+void fibonacciSeries(int n){
+    int a=0,b=1,n;
+    for(int i=0;i<=n;i++){
+        n=a+b;
+        b=n;
+        a=b;
     }
-    if(n>2){
-        return fibonacciSeries(n-1)+fibonacciSeries(n-2);
-    }
+    
 
 }
