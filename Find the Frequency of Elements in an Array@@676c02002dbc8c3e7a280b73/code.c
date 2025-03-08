@@ -21,11 +21,14 @@ int main() {
    }
    int cnt=1;
    for(int i=0;i<s;i++){
-    if(arr[i]==arr[j]){
+    for(int j=i+1;j<s;j++){
+if(arr[i]==arr[j]){
         v[j]=1;
         cnt++;
 
     }
+    }
+    
    }
    printf("%d %d\n", arr[i], cnt);
    
