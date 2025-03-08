@@ -9,7 +9,6 @@ int main() {
    
     int arr[s];
 
-    int cnt=0;
 
     int v[s];
     for(int i=0;i<s;i++){
