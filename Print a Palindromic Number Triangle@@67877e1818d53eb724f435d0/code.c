@@ -3,7 +3,7 @@
 int main() {
     int n, i, j, space, count;
 
-    printf("Enter the number of rows: ");
+
     scanf("%d", &n);
 
     for(i = 1; i <= n; i++) {
@@ -16,13 +16,13 @@ int main() {
 
         // Print the increasing sequence
         for(j = 1; j <= i; j++) {
-            printf("%2d ", count++);
+            printf("%2d", count++);
         }
 
         // Print the decreasing sequence
         count -= 2; // Adjust count to continue decreasing correctly
         for(j = 1; j < i; j++) {
-            printf("%2d ", count--);
+            printf("%2d", count--);
         }
 
         printf("\n");
