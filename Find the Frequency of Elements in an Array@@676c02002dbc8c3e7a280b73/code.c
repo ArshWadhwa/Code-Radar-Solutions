@@ -11,22 +11,24 @@ int main() {
 
     int cnt=0;
 
-
+    int v[n];
     for(int i=0;i<s;i++){
     scanf("%d",&arr[i]);
    }
-   for (int i=0;i<s;i++){
-    for(int j=0;j<s-1;j++){
-        if(arr[i]==arr[j]){
-            cnt++;
-              
-        }
-      
+   for(int i=0;i<n;i++){
+    if(v[i]==1){
+        continue;
     }
-    printf("%d %d",arr[i],cnt);
-      printf("\n")
-  
    }
+   int cnt=1;
+   for(int i=0;i<n;i++){
+    if(arr[i]==arr[j]){
+        v[j]=1;
+        cnt++;
+
+    }
+   }
+   printf("%d %d\n", arr[i], cnt);
    
 
 }
