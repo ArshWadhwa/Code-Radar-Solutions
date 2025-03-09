@@ -1,4 +1,4 @@
-int binarySearch(int arr[],n,target){
+int binarySearch(int arr[],int n,int target){
     int i=0;
     int j=n-1;
     
@@ -9,9 +9,12 @@ int binarySearch(int arr[],n,target){
 
         }else if(arr[mid]<taget){
             i=mid+1;
-        }else{
-            arr[mid]=target;
+        }else if(arr[mid]=target){
+             return mid;
+        }
+        else{
+            return -1;
         }
     }
-    return mid;
+   
 }
