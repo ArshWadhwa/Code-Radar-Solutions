@@ -19,7 +19,7 @@ int main() {
     }
         if(a%2==0){
             int md2=arr[a/2-1]+arr[a/2];
-            printf("%d",md2);
+            printf("%d",md2/2);
         }
     
     
