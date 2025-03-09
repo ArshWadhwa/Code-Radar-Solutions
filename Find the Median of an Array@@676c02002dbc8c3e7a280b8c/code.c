@@ -12,12 +12,12 @@ int main() {
     }
 
 
-       if(cnt%2!=0){
+       if(a%2!=0){
         int md=arr[i/2];
         printf("%d",md);
 
     }
-        if(cnt%2==0){
+        if(a%2==0){
             int md2=arr[i/2-1]+arr[i/2];
             printf("%d",md2);
         }
