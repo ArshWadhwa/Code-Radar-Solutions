@@ -25,16 +25,7 @@ int main() {
 
    
 }
-int revA(int arr[]){
-  int i=0;
-    int j=n-1;
-    while(i<=j){
-        int temp=arr[j];
-        arr[j]=arr[i];
-        arr[i]=temp;
-    }
-    return arr;
-}
+
 
 
       
