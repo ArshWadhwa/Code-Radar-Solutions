@@ -2,9 +2,14 @@
 
 int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
 
-    int arr[n], leaders[n], count = 0; 
+    int arr[n], leaders[n], count = 0;  
+
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
 
     int mx = arr[n-1];  
     leaders[count++] = mx;  
@@ -16,7 +21,7 @@ int main() {
         }
     }
 
-   
+
     for (int i = count - 1; i >= 0; i--) {
         printf("%d ", leaders[i]);
     }
