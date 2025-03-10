@@ -12,6 +12,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int mx=arr[n-1];
+    printf("%d ",mx);
     for(int i=n-2;i>=0;i--){
         if(arr[i]>mx){
             mx=arr[i];
