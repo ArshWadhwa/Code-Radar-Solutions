@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
-
+int revA(int arr[]);
 int main() {
     int n;
 
@@ -16,7 +16,7 @@ int main() {
     for(int i=n-2;i>=0;i--){
         if(arr[i]>mx){
             mx=arr[i];
-             printf("%d ",mx);
+             printf("%d ",revA(mx));
         }
      
     }
@@ -24,7 +24,7 @@ int main() {
 
    
 }
-int revA(int[] arr){
+int revA(int arr[]){
   int i=0;
     int j=n-1;
     while(i<=j){
@@ -32,6 +32,7 @@ int revA(int[] arr){
         arr[j]=arr[i];
         arr[i]=temp;
     }
+    return arr;
 }
 
 
