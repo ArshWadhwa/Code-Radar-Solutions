@@ -29,7 +29,7 @@ int main() {
         i++;
         j--;
     ]
-    printf("%d",mx)
+    printf("%d ",mx)
 
    
 }
