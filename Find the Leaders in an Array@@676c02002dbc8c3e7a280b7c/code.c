@@ -16,8 +16,9 @@ int main() {
         if(arr[i]>mx){
             mx=arr[i];
         }
-        printf("%d ",mx);
+     
     }
+       printf("%d ",mx);
 
    
 }
