@@ -16,7 +16,8 @@ int main() {
     for(int i=n-2;i>=0;i--){
         if(arr[i]>mx){
             mx=arr[i];
-             printf("%d ",revA(mx));
+            revA()
+             printf("%d ",mx);
         }
      
     }
