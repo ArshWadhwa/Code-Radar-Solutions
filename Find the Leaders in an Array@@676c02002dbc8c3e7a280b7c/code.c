@@ -16,11 +16,20 @@ int main() {
     for(int i=n-2;i>=0;i--){
         if(arr[i]>=mx){
             mx=arr[i];
-             printf("%d ",mx);
+             
         }
      
     }
-  
+    int i=0;
+    int j=n-1;
+    while(i<=j)[
+        int temp=arr[j];
+        arr[j]=arr[i];
+        arr[i]=temp;
+        i++;
+        j--;
+    ]
+    printf("%d",mx)
 
    
 }
