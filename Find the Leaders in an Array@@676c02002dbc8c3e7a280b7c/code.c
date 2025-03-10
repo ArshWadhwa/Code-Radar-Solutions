@@ -11,14 +11,15 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int i=0;
-
-    for(int j=i+1;j<n;j++){
+for(int i=0;i<a;i++){
+ for(int j=i+1;j<n;j++){
          if(arr[i]>arr[j]){
-            printf("%d",arr[i]);
+            printf("%d ",arr[i]);
         i++;      
     }
      i++; 
     }
+}
+   
        
 }
