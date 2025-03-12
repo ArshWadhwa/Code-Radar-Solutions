@@ -13,7 +13,7 @@ int main(){
     for(int i=n-1;i>=0;i--){
         int temp=arr[i];
         arr[i]=mx;
-        mx=fmax(mx,temp);
+        mx= (mx >temp) ? mx : temp;
 
     }
 
