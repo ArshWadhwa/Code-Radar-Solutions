@@ -20,7 +20,7 @@ int main(){
         }
 
     }
-printf("%d",l);
+printf("%d",mxlen);
 
 
 
