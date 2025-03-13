@@ -15,10 +15,10 @@ int main(){
             l++;
             if(l>mxlen){
                 mxlen=l;
-            }else if(arr[i+1]!=arr[i]){
+            }
+        }else if(arr[i+1]!=arr[i]){
                 l=1;
             }
-        }
 
     }
 printf("%d",mxlen);
