@@ -5,7 +5,7 @@ int main(){
 
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d ",&arr[i]);
     }
     int l=1;mxlen=1;
     bubbSort(arr,n);
