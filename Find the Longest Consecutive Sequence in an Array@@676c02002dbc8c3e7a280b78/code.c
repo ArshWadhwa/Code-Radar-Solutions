@@ -8,7 +8,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int l=1;
-    bubbSort(arr[i]);
+    bubbSort(arr[i],n);
     for(int i=0;i<n;i++){
         if(arr[i+1]-arr[i]==1){
             l++;
