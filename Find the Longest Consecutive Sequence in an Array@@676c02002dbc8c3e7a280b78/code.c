@@ -16,8 +16,8 @@ int main(){
     }
 printf("%d",l);
 
-    
-}
+
+
 
 void bubbSort(int arr[], int n){
     for(int i=0;i<n;i++){
@@ -30,3 +30,6 @@ void bubbSort(int arr[], int n){
         }
     }
 }
+    
+}
+
