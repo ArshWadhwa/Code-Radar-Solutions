@@ -16,7 +16,10 @@ int main(){
     while(i<=j){
         if(c[i]!=c[j]){
             printf("No");
+            return 0;
         }
+        i++;
+        j--;
         printf("Yes");
     }
 }
