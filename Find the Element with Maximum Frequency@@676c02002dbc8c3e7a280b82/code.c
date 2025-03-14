@@ -8,7 +8,7 @@ int maxFreq(int n,int arr[]){
             cnt++;
         }
 
-        ((cnt> mxFreq) || (cnt==res && arr[i]<res)) ? (mxFreq=cnt,res=arr[i]): 0;
+        ((cnt> mxFreq) || (cnt==mxFreq && arr[i]<res)) ? (mxFreq=cnt,res=arr[i]): 0;
     }
     
     return res;
