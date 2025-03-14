@@ -9,12 +9,15 @@ int main(){
     }
     int t;
     scanf("%d",&t);
-
+    int fnd=0;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             
             if(arr[i]+arr[j]==t){
             printf("%d %d\n",arr[i],arr[j]);
+            fnd=1;
+
+            
             }
 
           
@@ -22,7 +25,7 @@ int main(){
         }
        
     }
-    
+    return 0;
     
 
 
