@@ -19,7 +19,6 @@ int main(){
             ss=arr[i];
         }else if(ss==sm){
             printf("-1");
-            break;
         }
     }
     printf("%d",ss);
