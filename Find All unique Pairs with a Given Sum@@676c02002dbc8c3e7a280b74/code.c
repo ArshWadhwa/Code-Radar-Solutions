@@ -12,14 +12,14 @@ int main(){
 
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if(arr[i]==arr[j] && arr[i]+arr[j]==t ){
+            if(arr[i]==arr[j]){
                 printf("%d %d\n",arr[i],arr[j]);
                 break;
-            }
+            
             if(arr[i]+arr[j]==t){
             printf("%d %d\n",arr[i],arr[j]);
             }
-          
+            }
         
         }
        
