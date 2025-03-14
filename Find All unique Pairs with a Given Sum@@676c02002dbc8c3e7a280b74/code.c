@@ -15,11 +15,6 @@ int main(){
             
             if(arr[i]+arr[j]==t){
             printf("%d %d\n",arr[i],arr[j]);
-
-            if(arr[i]==arr[j]){
-                printf("%d %d\n",arr[i],arr[j]);
-                break;
-            }
             }
 
           
