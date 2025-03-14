@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
+#include <stdlib>
 
 int main() {
     int n;
@@ -18,9 +19,9 @@ int main() {
     for(int i=0;i<n;i++){
         if(arr[i]>l){
             sl=l;
-            l=arr[i];
+            l=abs(arr[i]);
         }else if(arr[i]>sl && arr[i]<l){
-            sl=arr[i];
+            sl=abs(arr[i]);
         }
     }
   printf("%d",sl*l);
