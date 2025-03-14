@@ -20,6 +20,7 @@ int main(){
         }
         i++;
         j--;
-        printf("Yes");
+     
     }
+       printf("Yes");
 }
