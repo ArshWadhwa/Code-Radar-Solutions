@@ -1,35 +1,43 @@
-#include <stdio.h>
-#include <limits.h>
+#include<stdio.h>
 
-int main() {
-     int n;
+void bubbSort(int arr[],int n);
+
+int main(){
+    int n;
     scanf("%d",&n);
 
     int arr[n];
-
     for(int i=0;i<n;i++){
-       scanf("%d", &arr[i]);
-    }
-    int sm2=0;
-    for(int i=0;i<n;i++){
-        sm2+=arr[i];
-    }
-
-    int mx=arr[0];
-    int mn=arr[0];
-    for( int i=0;i<n;i++){
-        if(arr[i]>mx){
-            mx=arr[i];
-        }
-        if(arr[i]<mn){
-            mn=arr[i];
-        }
-
-    }
-    int sm=0;
-    for(int i=mn;i<=mx;i++){
-            sm+=i;
+        scanf("%d",&arr[i]);
     }
    
-    printf("%d",sm-sm2);
+    bubbSort(arr,n);
+    for(int i=0;i<n-1;i++){
+        if(arr[i+1]-arr[i]==1){
+            
+            continue;
+            }else{
+                printf("%d",arr[i]+1);
+                break;
+            }
+
+    }
+
+
+
+
 }
+void bubbSort(int arr[], int n){
+    for(int i=0;i<n-1;i++){
+        for(int j=0;j<n-i-1;j++){
+            if(arr[j]>arr[j+1]){
+                int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
+            }
+        }
+    }
+}
+    
+
+
