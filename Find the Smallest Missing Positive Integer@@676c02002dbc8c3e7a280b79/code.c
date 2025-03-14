@@ -8,9 +8,7 @@ int findSmallestMissingPositive(int arr[], int n) {
             actualSum += arr[i];
         }
     }
-    if (expectedSum == actualSum) {
-        return n + 1;
-    } else {
+    if (expectedSum != actualSum) {
         return expectedSum - actualSum;
     }
 }
