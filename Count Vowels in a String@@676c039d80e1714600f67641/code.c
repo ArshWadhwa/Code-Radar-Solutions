@@ -1,9 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <ctype.h> 
+
 
 int main(){
     char c[1000];
     scanf("%s",&c);
-    c.lower();
+    c.tolower();
     int cnt=0;
     for(int i=0;c[i]!='\0';i++){
         if(c[i]=='a'||c[i]=='e'||c[i]=='i' ||c[i]=='o'||c[i]=='u'){
