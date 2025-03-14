@@ -5,7 +5,7 @@ int maxFreq(int n,int arr[]){
     for(int i=0;i<n;i++){
          cnt=1;
         for(int j=i+1;j<n;j++){
-            cnt++;
+             cnt += (arr[i] == arr[j]) ? 1 : 0;
         }
 
         ((cnt> mxFreq) || (cnt==mxFreq && arr[i]<res)) ? (mxFreq=cnt,res=arr[i]): 0;
