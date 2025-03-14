@@ -17,7 +17,7 @@ int main(){
             sm=arr[i];
 
         }
-        else if(ss>arr[i] && sm<arr[i]){
+        else if(sm<arr[i] && ss>arr[i] ){
             ss=arr[i];
         }
     }
