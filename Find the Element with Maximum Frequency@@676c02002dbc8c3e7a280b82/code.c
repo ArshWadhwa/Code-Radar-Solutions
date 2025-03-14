@@ -12,7 +12,7 @@ int maxFreq(int n,int arr[]){
             }
         }
 
-        ((cnt> mxFreq) || (cnt==mxFreq && arr[i]<res)) ? (mxFreq=cnt,res=arr[i]): 0;
+        ((cnt>= mxFreq) || ( arr[i]<res)) ? (mxFreq=cnt,res=arr[i]): 0;
     }
     
     return res;
