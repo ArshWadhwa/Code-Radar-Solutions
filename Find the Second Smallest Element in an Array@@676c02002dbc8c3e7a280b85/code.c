@@ -19,15 +19,15 @@ int main(){
         }
         
         else if(sm<arr[i] && ss>arr[i] ){
-            if(sm==ss){
-                ss=-1;
-            }else{
-                ss=arr[i];
-            }
-           
-
+            ss=arr[i];
+            
         }
 
     }
+    if(sm==INT_MAX){
+        printf("-1");
+    }else{
     printf("%d",ss);
+    }
+
 }
