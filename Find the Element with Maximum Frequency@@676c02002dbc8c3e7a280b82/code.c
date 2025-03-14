@@ -8,7 +8,7 @@ int maxFreq(int n,int arr[]){
             if(arr[i]==arr[j]){
                 cnt+=1;
             }else {
-                cnt=0;
+                cnt+=0;
             }
         }
 
