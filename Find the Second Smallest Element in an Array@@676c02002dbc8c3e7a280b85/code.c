@@ -17,9 +17,15 @@ int main(){
             sm=arr[i];
 
         }
+        
         else if(sm<arr[i] && ss>arr[i] ){
+            if(sm==ss){
+                ss=-1;
+            }
             ss=arr[i];
+
         }
+
     }
     printf("%d",ss);
 }
