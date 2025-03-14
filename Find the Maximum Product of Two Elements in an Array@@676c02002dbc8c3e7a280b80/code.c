@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
-#include <stdlib>
+#include <stdlib.h>
 
 int main() {
     int n;
