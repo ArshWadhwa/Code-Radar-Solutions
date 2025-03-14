@@ -13,6 +13,9 @@ int smNum(int arr[], int n){
     if(sm==exp){
         return n+1;
     }
+    else{
+        return exp-sm;
+    }
    
 }
 
