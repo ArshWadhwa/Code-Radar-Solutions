@@ -49,9 +49,7 @@ int main() {
         }
     }
 
-    if (!found) {
-        printf("No pairs found\n");  // Print if no pairs are found
-    }
+   
 
     return 0;
 }
