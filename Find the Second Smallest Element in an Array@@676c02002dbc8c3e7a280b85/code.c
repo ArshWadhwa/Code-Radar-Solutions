@@ -11,13 +11,15 @@ int main(){
     int sm=INT_MAX;
     int ss=-1;
     for(int i=0;i<n;i++){
-         if(ss==sm){
-            printf("-1");
-            break;
-        }
+        
         if(arr[i]<sm){
             ss=sm;
             sm=arr[i];
+
+             if(ss==sm){
+            printf("-1");
+            break;
+        }
         }
         else if(ss>arr[i] && ss!=sm){
             ss=arr[i];
