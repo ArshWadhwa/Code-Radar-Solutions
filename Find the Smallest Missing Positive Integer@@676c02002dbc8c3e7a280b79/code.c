@@ -28,6 +28,10 @@ int main() {
         printf("%d",n+1);
         return 0;
     }
+    if(cnt<n){
+        printf("1");
+        return 0;
+    }
     else if (expectedSum > actualSum) {
         printf("%d",expectedSum-actualSum);
     }else{
