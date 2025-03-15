@@ -20,5 +20,7 @@ int main() {
      
     if (expectedSum > actualSum) {
         printf("%d",expectedSum-actualSum);
+    }else{
+        printf("1");
     }
 }
