@@ -18,7 +18,7 @@ int main() {
         }
     }
      
-    if (expectedSum != actualSum) {
+    if (expectedSum > actualSum) {
         printf("%d",expectedSum-actualSum);
     }
 }
