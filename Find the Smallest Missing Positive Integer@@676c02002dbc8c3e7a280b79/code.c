@@ -21,6 +21,20 @@ int main() {
             printf("1");
             return 0;
         }
+        if (arr[i] == 1) {
+    int found = 0;
+    for (int j = 0; j < n; j++) {
+        if (arr[j] == 2) {
+            found = 1;
+            break;
+        }
+    }
+    if (!found) {
+        printf("2");
+        return 0;
+    }
+}
+
         if (arr[i] >0) {
             actualSum += arr[i];
             cnt++;
