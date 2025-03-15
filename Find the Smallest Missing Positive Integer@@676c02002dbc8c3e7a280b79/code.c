@@ -18,8 +18,9 @@ int main() {
             cnt++;
         }
     }
+    
    
-         if(cnt==n){
+         if(cnt==n && n!=1){
         printf("%d",n+1);
         return 0;
     }
