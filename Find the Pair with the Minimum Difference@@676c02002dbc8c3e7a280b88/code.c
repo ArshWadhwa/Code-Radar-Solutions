@@ -14,6 +14,7 @@ int main() {
    bubbSort(arr,n);
    if(n==1){
     printf("-1");
+    break;
    }
    for(int i=0;i<n;i++){
     for(int j=i+1;j<n;j++){
