@@ -1,13 +1,16 @@
 #include <stdio.h>
 
 int findSmallestMissingPositive(int arr[], int n) {
-    int expectedSum = n * (n + 1) / 2;
+  
     int actualSum = 0;
+    int cnt=0;
     for (int i = 0; i < n; i++) {
         if (arr[i] > 0) {
             actualSum += arr[i];
+            cnt++
         }
     }
+      int expectedSum = cnt * (cnt + 1) / 2;
     if (expectedSum != actualSum) {
         return expectedSum - actualSum;
     }
