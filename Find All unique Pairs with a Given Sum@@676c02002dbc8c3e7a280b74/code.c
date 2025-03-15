@@ -17,7 +17,7 @@ int main() {
             if (arr[i] + arr[j] == t) {
                 printf("%d %d\n", arr[i], arr[j]);
 
-                while(j+1<n && arr[j]==arr[j+1]){
+                while(arr[j]==arr[j+1]){
                     j++;
                 }
             }
