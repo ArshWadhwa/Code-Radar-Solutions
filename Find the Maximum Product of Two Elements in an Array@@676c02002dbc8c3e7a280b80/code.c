@@ -16,11 +16,12 @@ int main() {
     int l=INT_MIN;
     int sl=INT_MIN;
 
+
     for(int i=0;i<n;i++){
-        if(arr[i]>l){
+        if(abs(arr[i])>l){
             sl=l;
             l=abs(arr[i]);
-        }else if(arr[i]>sl && arr[i]<l){
+        }else if(abs(arr[i])>sl && abs(arr[i])<l){
             sl=abs(arr[i]);
         }
     }
