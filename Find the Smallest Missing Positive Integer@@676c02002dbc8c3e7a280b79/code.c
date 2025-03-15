@@ -37,6 +37,9 @@ int main() {
    
     // else if (expectedSum > actualSum) {
     //     printf("%d",);
-    }else{
+    
+    else{
         printf("1");
+    }
+
     }
