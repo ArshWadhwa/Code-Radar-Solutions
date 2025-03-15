@@ -10,14 +10,15 @@ int main() {
     }
     int num1,num2;
    int mn=INT_MAX;
+   bubbSort(arr,n);
    for(int i=0;i<n;i++){
     for(int j=i+1;j<n;j++){
         int diff = abs(arr[j]-arr[i]);
-        if(diff <mn){
+        if(diff < mn){
             mn=diff;
             num1=arr[i];
             num2=arr[j];
-        }
+        } 
     }
    }
    if(num1>num2){
@@ -28,4 +29,18 @@ int main() {
    }
    
    return 0;
+}
+
+void bubbSort(int arr[],int n){
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<n-i-1;j++){
+            if(arr[j]>arr[j+1]){
+                int temp=arr[j+1];
+                arr[j+1]=arr[j];
+                arr[j]=temp;
+            }
+        }
+    }
+
+
 }
