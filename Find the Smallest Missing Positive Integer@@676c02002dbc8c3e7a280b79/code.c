@@ -15,7 +15,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         if(arr[i]<0){
             printf("1");
-            return;
+            return 0;
         }
         if (arr[i] >=0) {
             actualSum += arr[i];
