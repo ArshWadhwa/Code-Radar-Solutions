@@ -1,35 +1,34 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
     int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
 
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
+
     int t;
-    scanf("%d",&t);
-    int fnd=0;
-    for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            
-            if(arr[i]+arr[j]==t){
-            printf("%d %d\n",arr[i],arr[j]);
+    scanf("%d", &t);
+
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (arr[i] + arr[j] == t) {
+                printf("%d %d\n", arr[i], arr[j]);
+
+                // Skip duplicate pairs
+                while (j + 1 < n && arr[j] == arr[j + 1]) {
+                    j++;
+                }
             }
-            else if(arr[j]==arr[j+1]){
-                printf("%d %d\n",arr[i],arr[j]);
-                break;
-                fnd=1;
-            }
-              
-            } 
-        
         }
-        return 0;
-       
+
+        // Skip duplicate values for `i`
+        while (i + 1 < n && arr[i] == arr[i + 1]) {
+            i++;
+        }
     }
-    
 
-
-
-
+    return 0;
+}
