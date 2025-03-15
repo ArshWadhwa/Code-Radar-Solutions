@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <limits.h> 
-#include <stdlib.h> 
+#include <stdlib.h>
+void bubbSort(int arr[],int n); 
 int main() {
     int n;
     scanf("%d",&n);
