@@ -20,7 +20,7 @@ int main() {
     }
     
    
-         if(cnt==n && n!=1){
+         if(cnt==n && n>1){
         printf("%d",n+1);
         return 0;
     }
