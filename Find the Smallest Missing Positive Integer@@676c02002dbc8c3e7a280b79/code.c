@@ -17,7 +17,7 @@ int main() {
             printf("1");
             return 0;
         }
-        if (arr[i] >=0) {
+        if (arr[i] >0) {
             actualSum += arr[i];
             cnt++;
         }
