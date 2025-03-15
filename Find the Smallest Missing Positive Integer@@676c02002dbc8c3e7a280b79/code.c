@@ -28,7 +28,7 @@ int main() {
         printf("%d",n+1);
         return 0;
     }
-    if(cnt<n){
+    if(n<cnt){
         printf("1");
         return 0;
     }
