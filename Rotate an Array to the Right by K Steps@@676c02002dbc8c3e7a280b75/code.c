@@ -28,7 +28,7 @@ int main(){
         i++;
         j--;
     }
-    i=k+1;
+    i=k;
     j=n-1;
      while(i<j){
         int temp=arr[j];
