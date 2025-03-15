@@ -24,10 +24,9 @@ int main() {
 
             
         }
-        while(arr[i]==arr[i+1] && i+1<n){
+        while(arr[i]==arr[i+1] ){
             i++;
         }
-        
         }
 
     return 0;
