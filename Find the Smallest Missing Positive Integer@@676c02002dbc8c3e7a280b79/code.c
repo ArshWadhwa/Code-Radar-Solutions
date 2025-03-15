@@ -13,6 +13,9 @@ int main() {
  int expectedSum = n * (n + 1) / 2;
  int cnt=0;
     for (int i = 0; i < n; i++) {
+        if(arr[i]==arr[i+1]){
+            printf("%d",arr[i]+1);
+        }
         if(arr[i]<0){
             printf("1");
             return 0;
