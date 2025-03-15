@@ -20,7 +20,7 @@ int main(){
         j--;
     }
     i=0;
-    j=k;
+    j=k-1;
     while(i<j){
         int temp=arr[j];
         arr[j]=arr[i];
