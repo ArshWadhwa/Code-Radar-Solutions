@@ -25,10 +25,7 @@ int main() {
             actualSum += arr[i];
             cnt++;
         }
-        if(arr[i]>=cnt){
-            printf("1");
-            return 0;
-        }
+       
     }
     
    
