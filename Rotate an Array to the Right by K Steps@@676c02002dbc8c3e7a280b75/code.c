@@ -19,8 +19,8 @@ int main(){
         i++;
         j--;
     }
-    int i=0;
-    int j=k;
+    i=0;
+    j=k;
     while(i<j){
         int temp=arr[j];
         arr[j]=arr[i];
@@ -28,8 +28,8 @@ int main(){
         i++;
         j--;
     }
-    int i=k+1;
-    int j=n-1;
+    i=k+1;
+    j=n-1;
      while(i<j){
         int temp=arr[j];
         arr[j]=arr[i];
