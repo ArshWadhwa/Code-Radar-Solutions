@@ -9,7 +9,7 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-
+    k=k%n;
     int i=0;
     int j=n-1;
     while(i<j){
