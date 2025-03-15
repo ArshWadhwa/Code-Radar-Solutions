@@ -13,6 +13,10 @@ int main() {
  int expectedSum = n * (n + 1) / 2;
  int cnt=0;
     for (int i = 0; i < n; i++) {
+        if(arr[i]<0){
+            printf("1");
+            return;
+        }
         if (arr[i] >=0) {
             actualSum += arr[i];
             cnt++;
@@ -26,7 +30,5 @@ int main() {
     }
     else if (expectedSum > actualSum) {
         printf("%d",expectedSum-actualSum);
-    }else{
-        printf("1");
     }
 }
