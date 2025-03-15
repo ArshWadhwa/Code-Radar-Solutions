@@ -17,10 +17,12 @@ int main() {
             actualSum += arr[i];
             cnt++;
         }
-    }
-    if(cnt==n){
+         if(cnt==n){
         printf("%d",n+1);
+        return 0;
     }
+    }
+   
      
     if (expectedSum > actualSum) {
         printf("%d",expectedSum-actualSum);
