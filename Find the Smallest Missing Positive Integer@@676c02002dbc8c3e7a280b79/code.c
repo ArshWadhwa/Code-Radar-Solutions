@@ -12,7 +12,7 @@ int main() {
     int actualSum = 0;
  int expectedSum = n * (n + 1) / 2;
     for (int i = 0; i < n; i++) {
-        if (arr[i] > 0) {
+        if (arr[i] >=0) {
             actualSum += arr[i];
          
         }
