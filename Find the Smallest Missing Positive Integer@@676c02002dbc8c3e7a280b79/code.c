@@ -7,7 +7,7 @@ int findSmallestMissingPositive(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         if (arr[i] > 0) {
             actualSum += arr[i];
-            cnt++
+            cnt++;
         }
     }
       int expectedSum = cnt * (cnt + 1) / 2;
