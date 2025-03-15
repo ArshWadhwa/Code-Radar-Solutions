@@ -19,6 +19,6 @@ int main() {
     }
      
     if (expectedSum != actualSum) {
-        return expectedSum - actualSum;
+        printf("%d",expectedSum-actualSum);
     }
 }
