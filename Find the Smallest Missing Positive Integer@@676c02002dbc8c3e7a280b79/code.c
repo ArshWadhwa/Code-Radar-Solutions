@@ -26,18 +26,17 @@ int main() {
             cnt++;
         }
     }
-     if(n<cnt){
-        printf("1");
-        return 0;
-    }
+    
    
          if(cnt==n && n>1){
         printf("%d",n+1);
         return 0;
+    }else if(cnt>n && n>1){
+        printf("%d",expectedSum-actualSum);
     }
    
-    else if (expectedSum > actualSum) {
-        printf("%d",expectedSum-actualSum);
+    // else if (expectedSum > actualSum) {
+    //     printf("%d",);
     }else{
         printf("1");
     }
