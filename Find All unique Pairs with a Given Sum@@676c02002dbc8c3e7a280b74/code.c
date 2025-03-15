@@ -17,18 +17,18 @@ int main() {
             if (arr[i] + arr[j] == t) {
                 printf("%d %d\n", arr[i], arr[j]);
 
-                // Skip duplicate pairs
-                while (j + 1 < n && arr[j] == arr[j + 1]) {
+                while(j+1<n && arr[j]==arr[j+1]){
                     j++;
                 }
             }
-        }
 
-        // Skip duplicate values for `i`
-        while (i + 1 < n && arr[i] == arr[i + 1]) {
+            
+        }
+        while(arr[i]==arr[i+1] && i+1<n){
             i++;
         }
-    }
+        
+        }
 
     return 0;
 }
