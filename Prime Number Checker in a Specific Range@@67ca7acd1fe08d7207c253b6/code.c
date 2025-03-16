@@ -1,19 +1,22 @@
-int printPrimesInRange(int a, int b);
+#include <stdbool.h>
 
-int isPrime(int a , int b){
-    for(int i=a ;i<=b;i++){
-        for(int i=a;i*i<a;i++){
-            if(a%i==0){
-                continue;
-            }else{
-                return i;
-            }
+// Function to check if a number is prime
+bool isPrime(int num) {
+    if (num <= 1) return false; // 0 and 1 are not prime numbers
+    for (int i = 2; i * i <= num; i++) {
+        if (num % i == 0) {
+            return false; // Not a prime number
         }
     }
-
+    return true; // Prime number
 }
-int printPrimesInRange(int a, int b){
-    for( int i=a;i<=b;i++){
-        return isPrime(a,b);
+
+// Function to print prime numbers in a given range
+void printPrimesInRange(int a, int b) {
+    for (int i = a; i <= b; i++) {
+        if (isPrime(i)) {
+            printf("%d ", i);
+        }
     }
+    printf("\n");
 }
