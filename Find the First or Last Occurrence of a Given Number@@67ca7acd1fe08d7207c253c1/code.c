@@ -1,9 +1,12 @@
 int findOccurrence(int arr[],int n,int target,char mode){
     int res=-1;
-    if(mode=='F'){
-        res=arr[0];
-    }else if(mode=='L'){
-        res=arr[n-2];
+    for(int i=0;i<n;i++){
+
+    if(mode=='F' && target==arr[i]){
+        res=arr[i];
+    }else if(mode=='L' && target==arr[i]){
+        res=arr[i];
     }
-    return res;
+}   
+   return res;
 }
