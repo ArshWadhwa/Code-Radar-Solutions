@@ -3,7 +3,7 @@ int findOccurrence(int arr[],int n,int target,char mode){
     if(mode=='F'){
         res=arr[0];
     }else if(mode=='L'){
-        res=arr[n-1];
+        res=arr[n-2];
     }
     return res;
 }
