@@ -2,30 +2,30 @@
 
 
 bool isPrime(int num) {
-    if (num <= 1) return false; // 0 and 1 are not prime numbers
+    if (num <= 1) return false; 
     for (int i = 2; i * i <= num; i++) {
         if (num % i == 0) {
             return false; 
         }
     }
-    return true; // Prime number
+    return true; 
 }
 
-// Function to print prime numbers in a given range
+
 void printPrimesInRange(int a, int b) {
-    bool foundPrime = false; // Flag to track if any prime number was found
+    bool foundPrime = false; 
 
     for (int i = a; i <= b; i++) {
         if (isPrime(i)) {
-            printf("%d ", i); // Print the prime number
-            foundPrime = true; // Set the flag to true
+            printf("%d ", i); 
+            foundPrime = true; 
         }
     }
 
-    // If no prime numbers were found, print a message
+    
     if (!foundPrime) {
         printf("No prime numbers");
     }
 
-    printf("\n"); // Print a newline at the end
+    printf("\n"); 
 }
