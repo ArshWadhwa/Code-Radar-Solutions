@@ -5,7 +5,7 @@ bool isPrime(int num) {
     if (num <= 1) return false; // 0 and 1 are not prime numbers
     for (int i = 2; i * i <= num; i++) {
         if (num % i == 0) {
-            return false; // Not a prime number
+            return false; 
         }
     }
     return true; // Prime number
@@ -16,6 +16,8 @@ void printPrimesInRange(int a, int b) {
     for (int i = a; i <= b; i++) {
         if (isPrime(i)) {
             printf("%d ", i);
+        }else{
+            printf("No prime numbers");
         }
     }
     printf("\n");
