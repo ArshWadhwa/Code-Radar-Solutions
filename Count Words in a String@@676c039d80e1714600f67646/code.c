@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     char c[10000];
-    scanf("%s",&c);
+    fgets(c, sizeof(c), stdin);
     int cnt=0;
     int i=0;
     while(c!='\0'){
