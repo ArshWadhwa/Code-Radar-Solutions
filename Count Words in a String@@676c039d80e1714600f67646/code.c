@@ -5,7 +5,7 @@ int main(){
     int cnt=0;
     int i=0;
     while(c!='\0'){
-        if(c[i]==''){
+        if(c[i]==' '){
             cnt++;
         }
     i++;
