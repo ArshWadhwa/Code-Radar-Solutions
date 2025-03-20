@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+#include <ctype.h> 
 int main() {
     char c[10000];
     fgets(c, sizeof(c), stdin);
@@ -18,7 +18,7 @@ int main() {
             j--;
             continue;  
         }
-        if (c[i] != c[j]) {  
+        if (tolower(c[i]) != tolower(c[j])) {  
             p = 0;
             break;
         }
