@@ -6,12 +6,10 @@ int main(){
     int i=0;
     while(c[i]!='\0'){
        
-        if(c[i]==' '){
+        if(c[i]==' ' && i!=' '){
             cnt++;
         }
-         if(i==' '){
-            cnt=0;
-        }
+
         
     i++;
     }
