@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 
 int main() {
@@ -12,7 +12,7 @@ int main() {
     while (i < j) {
         if (c[i] == ' ') {  
             i++;
-            continue;
+            continue; 
         }
         if (c[j] == ' ') {  
             j--;
@@ -34,22 +34,3 @@ int main() {
 
     return 0;
 }
-
-    }
-    if(c[j]==' '){
-        j--;
-    }
-    if(c[i]!=c[j]){
-        p=0;
-        break;
-
-    }
-    
-    i++;
-    j--;
-
-}
-if(p){
-    printf("Yes");
-}
-printf("No");
