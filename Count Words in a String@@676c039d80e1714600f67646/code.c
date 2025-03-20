@@ -5,9 +5,13 @@ int main(){
     int cnt=0;
     int i=0;
     while(c[i]!='\0'){
+        if(i==' '){
+            cnt=0;
+        }
         if(c[i]==' '){
             cnt++;
         }
+        
     i++;
     }
     cnt++;
