@@ -1,10 +1,4 @@
-int i=0;
-int j=strlen(c)-1;
-int p=1;
-while(i<j){
-    if(c[i]==' '){
-        i++;
-        #include <stdio.h>
+ #include <stdio.h>
 #include <string.h>
 
 int main() {
