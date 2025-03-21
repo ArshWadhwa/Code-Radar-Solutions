@@ -21,7 +21,7 @@ for(int i=0;c1[i]!='\0';i++){
                 mxfreq=cnt;
                 mxChar=c1[i];
             }
-        printf("%c/n: %d",mxChar,cnt);
+        printf("%c: %d\n",mxChar,cnt);
         }
     }
 }
