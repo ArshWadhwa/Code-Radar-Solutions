@@ -10,7 +10,7 @@ int main(){
      for (int i = 0; c[i] != '\0'; i++) {
         c[i] = tolower(c[i]);  
     }
-
+    int i=0;
      while(c[i]!='\0'){
         cnt++;
         i++;
