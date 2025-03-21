@@ -19,9 +19,6 @@ for(int i=0;c1[i]!='\0';i++){
             if(cnt>mxfreq && c1[i]<mxChar){
                 mxfreq=cnt;
                 mxChar=c1[i];
-            }else{
-                printf("%c",mxChar);
-                return 0;
             }
 
         }
