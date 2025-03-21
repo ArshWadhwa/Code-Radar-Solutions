@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdln.h>
+#include<string.h>
 int main(){
     char c[10000];
     fgets(c,sizeOf(c),stdin);
