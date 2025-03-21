@@ -13,7 +13,7 @@ int main(){
 
 for(int i=0;c1[i]!='\0';i++){
     for(int j=i+1;c1[j]!='\0';j++){
-        if(c1[i]==c2[j]){
+        if(c1[i]==c1[j]){
             cnt++;
            
             if(cnt>mxfreq){
