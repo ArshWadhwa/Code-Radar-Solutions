@@ -15,9 +15,6 @@ for(int i=0;c1[i]!='\0';i++){
     for(int j=i+1;c1[j]!='\0';j++){
         if(c1[i]!=c1[j]){
             mxChar=c1[i];
-        }else{
-            mxChar=c1[0];
-            return 0;
         }
     }
 }
