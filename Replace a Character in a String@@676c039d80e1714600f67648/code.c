@@ -14,7 +14,7 @@ int main() {
 
     for(int i=0;i!='\0';i++){
         if(str[i]==c1 ){
-                str[i]=c2
+                str[i]=c2;
         }
        
     }
