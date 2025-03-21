@@ -13,8 +13,10 @@ int main() {
 
 
     for(int i=0;i!='\0';i++){
-        if(str[i]==c1 )
-        c1=c2;
+        if(str[i]==c1 ){
+                c1=c2;
+        }
+       
     }
 
     for(int i=0;i!='\0';i++){
