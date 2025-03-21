@@ -11,7 +11,10 @@ int main(){
             
         
    }else{
-    printf(" ");
+    if(c[i]==' '){
+        printf(" ");
+    }
+    
     continue;
    }
   }
