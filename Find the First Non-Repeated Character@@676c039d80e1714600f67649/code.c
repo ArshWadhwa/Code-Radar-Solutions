@@ -17,7 +17,7 @@ for(int i=0;c1[i]!='\0';i++){
             mxChar=c1[i];
         }else{
             mxChar=c1[0];
-            
+            return 0;
         }
     }
 }
