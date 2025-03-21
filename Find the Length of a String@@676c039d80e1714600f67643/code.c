@@ -11,7 +11,10 @@ int main(){
         c[i] = tolower(c[i]);  
     }
     int i=0;
-    
+    if(c[i]=='\0'){
+        printf("0");
+        return 0;
+    }
     
      while(c[i]!='\0' ){
         cnt++;
