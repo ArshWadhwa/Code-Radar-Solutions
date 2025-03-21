@@ -9,12 +9,14 @@ int main(){
     fgets(c1,sizeof(c1),stdin);
     int l = strlen(c1);
 
-    char mxChar=c1[0];
+    char mxChar;
 
 for(int i=0;c1[i]!='\0';i++){
     for(int j=i+1;c1[j]!='\0';j++){
         if(c1[i]!=c1[j]){
             mxChar=c1[i];
+        }else{
+
         }
     }
 }
