@@ -8,7 +8,7 @@ int main(){
     char ch =tolower(c[i]);
 
    if(ch[i]=='a' || ch[i]=='e' || ch[i]=='i' || ch[i]=='i' || ch[i]=='o' || ch[i]=='u' ){
-        printf("%c",c[i]);
+        printf("%c",ch[i]);
        
  else if (isdigit(ch[i])) {
             printf("%c", ch[i]);
