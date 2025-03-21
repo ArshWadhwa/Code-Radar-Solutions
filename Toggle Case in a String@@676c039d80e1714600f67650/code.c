@@ -10,7 +10,8 @@ int main(){
             c[i]=toupper(c[i]);
             
         }
-        printf("%s",c);
+       
 
     }
+     printf("%s",c);
 }
