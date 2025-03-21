@@ -7,9 +7,9 @@ int main(){
     int j=strlen(c)-1;
 
     while(i<j){
-        char temp=str[i];
-        str[i]=str[j];
-        str[j]=temp;
+        char temp=c[i];
+        c[i]=c[j];
+        c[j]=temp;
         i++;
         j--;
 
