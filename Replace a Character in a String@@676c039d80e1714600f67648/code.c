@@ -6,9 +6,7 @@ int main() {
 
     scanf("%s", str); 
     
-    scanf("%c", &c1); 
-    
-
+    scanf("%c\n",&c1); 
     scanf("%c", &c2); 
 
 
