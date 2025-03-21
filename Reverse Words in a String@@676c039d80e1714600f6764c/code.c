@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
     char c[10000];
-    fgets(c,sizeOf(c),stdin);
+    fgets(c,sizeof(c),stdin);
     int i=0;
     int j=strlen(c)-1
 
