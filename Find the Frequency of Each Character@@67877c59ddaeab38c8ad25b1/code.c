@@ -14,7 +14,7 @@ int main() {
         }
     }
 
-    for (int i = 0; i < 256; i++) {
+    for (int i = 256; i > -1; i--) {
     if (freq[i] != 0) {
         printf("%c: %d\n", i, freq[i]);
         }
