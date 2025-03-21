@@ -7,9 +7,9 @@ int main(){
     fgets(c,sizeof(c),stdin);
     
     int cnt=0;
-     for (int i = 0; c[i] != '\0'; i++) {
+     for (int i = 0; c[i] != '\0'&& c[i] != '\n'; i++) {
          if (c[i] == '\n') break;
-        c[i] = tolower(c[i]);  
+         c[i] = tolower(c[i]);  
          cnt++;
   
     }
