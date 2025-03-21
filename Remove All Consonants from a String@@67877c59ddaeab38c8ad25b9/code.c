@@ -10,12 +10,13 @@ int main(){
 
    if(ch =='a' || ch =='e' || ch =='i' || ch =='i' || ch =='o' || ch =='u' ){
         printf("%c",c[i]);
-       
+   }
  else if (isdigit(ch)) {
             printf("%c", c[i]);
         } 
         
-   }else if (ch == ' ') {
+   }
+   else if (ch == ' ') {
             printf(" ");
         }
    }
