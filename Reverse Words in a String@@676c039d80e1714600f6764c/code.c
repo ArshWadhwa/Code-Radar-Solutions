@@ -12,6 +12,9 @@ int main(){
         c[j]=temp;
         i++;
         j--;
+        if(c[i]==' '|| c[j]==' '){
+            break;
+        }
 
     }
        printf("%s",c);
