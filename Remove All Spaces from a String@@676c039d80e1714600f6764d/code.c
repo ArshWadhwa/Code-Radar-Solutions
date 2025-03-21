@@ -2,16 +2,18 @@
 #include <ctype.h> 
 #include <string.h>
 
-int main(){
+int main() {
     char c[1000];
-    fgets(c,sizeof(c),stdin);
-    
+    fgets(c, sizeof(c), stdin);
 
-    for(int i=0;c[i]!=0;i++){
-        if(c[i]==' '){
-            continue;
+    int j = 0;
+    for (int i = 0; c[i] != '\0'; i++) {
+        if (c[i] != ' ') {
+            c[j] = c[i];
+            j++;
         }
-        
     }
-    printf("%s",c);
+    c[j] = '\0';
+
+    printf("%s", c);
 }
