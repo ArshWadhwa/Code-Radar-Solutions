@@ -16,7 +16,7 @@ int main() {
     
     for(int i=0;str[i]!='\0';i++){
          for(int j=0;str2[j]!='\0';j++){
-            if(str[i]==str[j] && l1==l2 ){
+            if(str[i]==str[j] ){
                 cnt++;
                 break;
             }   
