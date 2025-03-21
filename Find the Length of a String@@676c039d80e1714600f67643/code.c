@@ -9,15 +9,12 @@ int main(){
     int cnt=0;
      for (int i = 0; c[i] != '\0'; i++) {
         c[i] = tolower(c[i]);  
-           if(c[0]=='\n'){
-        printf("0");
-        return 0;
-    }
+  
     }
     int i=0;
  
     
-     while(c[i]!='\0' ){
+     while(c[i]!='\0' && c[i]!='\n' ){
         cnt++;
         i++;
    
