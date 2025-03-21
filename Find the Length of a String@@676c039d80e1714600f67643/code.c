@@ -16,9 +16,7 @@ int main(){
      while(c[i]!='\0' ){
         cnt++;
         i++;
-        if(c[i]==' '){
-        printf("0");
-    }
+   
         
      }
      printf("%d",cnt);
