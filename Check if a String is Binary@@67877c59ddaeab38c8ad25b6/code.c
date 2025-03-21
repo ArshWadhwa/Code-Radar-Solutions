@@ -10,16 +10,17 @@ int main(){
             break;
         }
         i++;
+        
 
    }
         
-    if(t){
-    printf("Yes");
+    if(t==0){
+    printf("No");
     }
 
 
     else{
-printf("No");
+printf("Yes");
     }
     
 
