@@ -11,9 +11,9 @@ int main() {
          for(int j=0;str2[j]!='\0';j++){
             if(str[i]==str[j]){
                 cnt++;
-            }
-            
-            
+            }else{
+                cnt=1;
+            }     
         
     }
     }
