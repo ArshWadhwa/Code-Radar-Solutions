@@ -19,6 +19,7 @@ int main(){
    else if (ch == ' ') {
             printf(" ");
         }
+
+          return 0;
    }
-  return 0;
-}
+
