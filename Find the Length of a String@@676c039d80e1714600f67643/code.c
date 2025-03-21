@@ -11,8 +11,9 @@ int main(){
         c[i] = tolower(c[i]);  
     }
 
-     for (int i = 0; c[i] != '\0'; i++) {
+     while(c[i]!='\0'){
         cnt++;
+        i++;
      }
      printf("%d",cnt);
 }
