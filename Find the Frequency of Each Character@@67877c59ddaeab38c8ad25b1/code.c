@@ -26,9 +26,10 @@ for(int i=0;c1[i]!='\0';i++){
         }
          
     }
-     printf("%c: %d\n",mxChar,cnt);
+  
 }
-     
+
+       printf("%c: %d\n",mxChar,cnt); 
 
 
      return 0;
