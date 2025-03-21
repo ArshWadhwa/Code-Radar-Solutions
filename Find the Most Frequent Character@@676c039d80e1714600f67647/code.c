@@ -7,9 +7,9 @@ int main(){
     char c1[1000];
 
     fgets(c1,sizeof(c1),stdin);
-    int l = strlen(c1);
+    int l = strlen(c);
     int mxfreq=0;
-    char mxChar=c1[-1];
+    char mxChar=c1[0];
     int cnt=0;
 
 for(int i=0;c1[i]!='\0';i++){
