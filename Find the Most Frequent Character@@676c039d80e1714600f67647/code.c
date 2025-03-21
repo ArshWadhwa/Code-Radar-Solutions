@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <ctype.h> 
-#include <String.h> 
+#include <string.h> 
 
 
 int main(){
