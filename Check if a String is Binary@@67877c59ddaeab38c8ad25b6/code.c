@@ -6,6 +6,7 @@ int main(){
     for(int i=0;i!='\0';i++){
         if(c[i]!=0 || c[i]!=1){
             t=0;
+            continue;
         }
 
     }
