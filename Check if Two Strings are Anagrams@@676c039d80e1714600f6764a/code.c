@@ -6,7 +6,7 @@ int main() {
     char str[1000]; 
     char str2[1000];
     fgets(str,sizeof(str),stdin);
-    fgets(str,sizeof(str2),stdin);
+    fgets(str2,sizeof(str2),stdin);
 
     int an =1;
     int cnt=0;
