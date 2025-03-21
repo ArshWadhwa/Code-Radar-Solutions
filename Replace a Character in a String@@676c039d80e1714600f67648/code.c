@@ -6,8 +6,8 @@ int main() {
 
     scanf("%s", str); 
     
-    scanf("%c\n",&c1); 
-    scanf("%c", &c2); 
+    scanf(" %c",&c1); 
+    scanf(" %c", &c2); 
 
 
     for(int i=0;str[i]!='\0';i++){
