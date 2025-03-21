@@ -4,12 +4,12 @@ int main() {
     char str[1000]; 
     char c1, c2;
 
-    scanf("%s",str); 
+    scanf("%s", str); 
     
-    scanf("%c",&c1); 
+    scanf("%c", &c1); 
     
 
-    scanf("%c",&c2); 
+    scanf("%c", &c2); 
 
 
     for(int i=0;str[i]!='\0';i++){
