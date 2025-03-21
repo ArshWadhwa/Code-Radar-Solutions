@@ -8,17 +8,13 @@ int main(){
     
     int cnt=0;
      for (int i = 0; c[i] != '\0'; i++) {
+         if (c[i] == '\n') break;
         c[i] = tolower(c[i]);  
+         cnt++;
   
     }
-    int i=0;
+ 
  
     
-     while(c[i]!='\0' && c[i]!='\n' ){
-        cnt++;
-        i++;
-   
-        
-     }
      printf("%d",cnt);
 }
