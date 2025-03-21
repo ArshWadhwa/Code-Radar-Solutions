@@ -16,7 +16,7 @@ int main() {
         
     }
     }
-    if(an && cnt==1){
+    if(cnt == strlen(str)){
         printf("Yes");
     }else{
         printf("No");
