@@ -12,9 +12,7 @@ int main() {
             if(str[i]==str[j]){
                 cnt++;
                 break;
-            }else{
-                cnt=0;
-            }     
+            }   
         
     }
     }
