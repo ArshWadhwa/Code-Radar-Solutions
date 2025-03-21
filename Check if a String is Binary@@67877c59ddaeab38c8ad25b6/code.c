@@ -7,7 +7,6 @@ int main(){
    while(c[i]!='\0'){
     if(c[i]!=0 || c[i]!=1){
             t=0;
-            i++;
          
 
         }
