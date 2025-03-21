@@ -9,8 +9,8 @@ int main(){
    
     
     int cnt=0;
-     for (int i = 0; c[i] != '\0'; i++) {
-        if (c[i] == '\n') break;
+     for (int i = 0; c[i] != '\0'&& c[i] != '\n'; i++) {
+        //  if (c[i] == '\n') break;
          c[i] = tolower(c[i]);  
          cnt++;
   
