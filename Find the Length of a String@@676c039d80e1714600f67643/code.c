@@ -6,6 +6,9 @@ int main(){
     char c[1000];
     fgets(c,sizeof(c),stdin);
     
+    if(c[0]=='\n'){
+        printf("0");
+    }
     int cnt=0;
      for (int i = 0; c[i] != '\0'&& c[i] != '\n'; i++) {
         //  if (c[i] == '\n') break;
