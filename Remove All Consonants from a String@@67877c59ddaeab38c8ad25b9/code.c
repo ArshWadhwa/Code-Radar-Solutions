@@ -8,14 +8,14 @@ int main(){
   for(int i=0;c[i]!='\0';i++){
     char ch = tolower(c[i]);
 
-   if(ch[i]=='a' || ch[i]=='e' || ch[i]=='i' || ch[i]=='i' || ch[i]=='o' || ch[i]=='u' ){
+   if(ch =='a' || ch =='e' || ch =='i' || ch =='i' || ch =='o' || ch =='u' ){
         printf("%c",c[i]);
        
- else if (isdigit(ch[i])) {
+ else if (isdigit(ch)) {
             printf("%c", c[i]);
         } 
         
-   }else if (ch[i] == ' ') {
+   }else if (ch == ' ') {
             printf(" ");
         }
    }
