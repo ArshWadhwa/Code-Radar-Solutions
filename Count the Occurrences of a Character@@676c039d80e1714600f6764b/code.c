@@ -7,7 +7,7 @@ int main(){
     char c[1000];
     fgets(c,sizeof(c),stdin);
     char k;
-    scanf("%c",k);
+    scanf("%c",&k);
    
     
     int cnt=0;
@@ -21,5 +21,5 @@ int main(){
 
     
      printf("%d",cnt);
-    //  return 0;
+     return 0;
 }
