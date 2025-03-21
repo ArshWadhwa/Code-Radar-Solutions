@@ -9,9 +9,13 @@ int main(){
             continue;
         }
 
-    }
-    if(t)
+        if(t)
     printf("Yes");
+    break;
     else
     printf("No");
+    break;
+
+    }
+    
 }
