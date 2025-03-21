@@ -13,15 +13,15 @@ int main(){
 
    }
         
-
-
-    
-
-    if(t)
+    if(t){
     printf("Yes");
+    }
 
-    else
-    printf("No");
+
+    else{
+printf("No");
+    }
+    
 
     
 }
