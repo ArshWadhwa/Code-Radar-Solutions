@@ -6,7 +6,8 @@
 int main(){
     char c1[1000];
 
-    fgets(c1,sizeof(c1),stdin);
+    // fgets(c1,sizeof(c1),stdin);
+    scanf("%s",&c1);
     int l = strlen(c1);
     int mxfreq=0;
     char mxChar=c1[l-1];
