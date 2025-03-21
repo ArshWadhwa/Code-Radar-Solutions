@@ -9,7 +9,7 @@ int main(){
     fgets(c1,sizeof(c1),stdin);
     int l = strlen(c1);
     int mxfreq=0;
-    char mxChar=c1[0];
+    char mxChar=c1[l-1];
     int cnt=0;
 
 for(int i=0;c1[i]!='\0';i++){
@@ -20,6 +20,8 @@ for(int i=0;c1[i]!='\0';i++){
             if(cnt>mxfreq && c1[i]<mxChar){
                 mxfreq=cnt;
                 mxChar=c1[i];
+            }else{
+                mxChar=c1[]
             }
 
         }
