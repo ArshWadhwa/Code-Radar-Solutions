@@ -7,6 +7,9 @@ int main(){
 
    if(c[i]=='a' || c[i]=='e' || c[i]=='i' || c[i]=='i' || c[i]=='o' || c[i]=='u' ){
         printf("%c",c[i]);
+        if(c[i]=' '){
+            printf(" ");
+        }
    }else{
     continue;
    }
