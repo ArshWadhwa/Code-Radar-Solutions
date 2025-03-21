@@ -14,9 +14,9 @@ int main(){
 
         if(t)
     printf("Yes");
-    break;
+
     else
     printf("No");
-    break;
+
     
 }
