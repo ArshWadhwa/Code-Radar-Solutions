@@ -18,9 +18,6 @@ int main(){
    }else if (ch[i] == ' ') {
             printf(" ");
         }
-   
-    
-    continue;
    }
   
 }
