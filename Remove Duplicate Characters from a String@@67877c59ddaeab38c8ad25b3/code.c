@@ -10,8 +10,9 @@ int main() {
         if(c[i]==c[i+1]){
             i++;
         }
-        printf("%s",c);
+      
     }
+      printf("%s",c);
     
     return 0;
 }
