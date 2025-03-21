@@ -8,7 +8,7 @@ int main(){
     fgets(c1,sizeof(c1),stdin);
 
     int mxfreq=0;
-    char mxChar;
+    char mxChar=c1[0];
     int cnt=0;
 
 for(int i=0;c1[i]!='\0';i++){
@@ -16,7 +16,7 @@ for(int i=0;c1[i]!='\0';i++){
         if(c1[i]==c1[j]){
             cnt++;
            
-            if(cnt>mxfreq){
+            if(cnt>mxfreq && c1[i]>mxChar){
                 mxfreq=cnt;
                 mxChar=c1[i];
             }
