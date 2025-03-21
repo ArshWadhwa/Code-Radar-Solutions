@@ -11,6 +11,7 @@ int main(){
         if(c[i]==' '){
             continue;
         }
-        printf("%s",c);
+        
     }
+    printf("%s",c);
 }
