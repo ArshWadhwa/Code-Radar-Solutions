@@ -4,7 +4,7 @@ int main(){
     char c[10000];
     fgets(c,sizeof(c),stdin);
     int i=0;
-    int j=strlen(c)-1
+    int j=strlen(c)-1;
 
     while(i<j){
         char temp=str[i];
