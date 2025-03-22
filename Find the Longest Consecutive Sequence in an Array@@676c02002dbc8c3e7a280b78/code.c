@@ -19,9 +19,10 @@ int main(){
             if(l>mxlen){
                 mxlen=l;
             }
-        }else if(arr[i+1]!=arr[i]){
-                l=1;
-            }
+        }
+        // else if(arr[i+1]!=arr[i]){
+        //         l=1;
+        //     }
 
     }
 printf("%d",mxlen);
