@@ -6,10 +6,8 @@ int kthSmallestElement(int arr[], int n,int k){
         return 0;
     }
     else{
-        for(int i=0;i<n;i++){
-            int sm=arr[k-1];;
-            return sm;
-        }
+        int sm=arr[k-1];
+        return sm;
     }
 }
 void bubbleSort(int arr[], int n){
