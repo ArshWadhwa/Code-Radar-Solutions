@@ -9,9 +9,9 @@ int digitRightShift(int N){
             while(N!=0){
                 int rem=N%10;
                 int rev=rev*10+N/10;
-                
+                 return rev;
             }
-            return rev;
+           
         }
     int rev=0;
   
