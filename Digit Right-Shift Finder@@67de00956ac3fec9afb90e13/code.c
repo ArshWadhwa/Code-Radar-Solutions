@@ -4,7 +4,7 @@ int digitRightShift(int N) {
     int lastDigit = N % 10;  
     int remainingNum = N / 10; 
 
-    int numDigits = 0, temp = remainingNum;
+    int numDigits = 0
     while (temp > 0) {
         temp /= 10;
         numDigits++;
