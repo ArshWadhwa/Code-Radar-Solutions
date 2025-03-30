@@ -1,10 +1,9 @@
 int digitRightShift(int N) {
-    if (N < 10) return N; // Single-digit case
+    if (N < 10) return N; 
 
-    int lastDigit = N % 10;  // Extract last digit
-    int remainingNum = N / 10; // Remove last digit
+    int lastDigit = N % 10;  
+    int remainingNum = N / 10; 
 
-    // Count the number of digits in remainingNum
     int numDigits = 0, temp = remainingNum;
     while (temp > 0) {
         temp /= 10;
