@@ -9,3 +9,9 @@ void insertionSort(int arr[],int n){
         }
     }
 }
+void printArray(int arr[],int n){
+    insertionSort(arr,n);
+    for(int i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+}
