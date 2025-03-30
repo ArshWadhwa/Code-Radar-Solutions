@@ -1,9 +1,9 @@
 
 void bubbleSort(int arr[], int n);
 int kthSmallest(int arr[], int n,int k){
-    bubbleSort(arr,n,k);
+    bubbleSort(arr,n);
     if(k>n){
-        return 0;
+        return -1;
     }
     else{
         int sm=arr[k-1];
