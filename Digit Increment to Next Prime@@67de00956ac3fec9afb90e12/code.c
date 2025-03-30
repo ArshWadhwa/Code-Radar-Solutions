@@ -1,5 +1,5 @@
 int incrementToPrimeDigits(int N){
-   int temp=N
+   int temp=N;
     while(temp!=0){
         temp/=10;
         cnt++;
