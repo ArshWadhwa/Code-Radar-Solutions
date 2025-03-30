@@ -12,7 +12,7 @@ int digitRightShift(int N) {
     }
 
     int mul=1;
-    for(int i=0;i<N;i++){
+    for(int i=0;i<numDigits;i++){
         mul*=10;
     }
 
