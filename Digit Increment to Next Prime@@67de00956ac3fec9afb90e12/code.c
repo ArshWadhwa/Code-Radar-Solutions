@@ -15,7 +15,7 @@ int incrementToPrimeDigits(int N){
         N/=10;
         l--;
      }
-     for(int i=0;i<nums;i++){
+     for(int i=0;i<nums-1;i++){
         printf("%d",arr[i]);
      }
 }
