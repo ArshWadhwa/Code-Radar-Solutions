@@ -11,6 +11,7 @@ int fact(int n){
 int factorialRange(int start , int end){
     if(start>end || start <0 || end<0){
         printf("Invalid range");
+        return 0;
         
     }
     for(int i=start;i<=end;i++){
